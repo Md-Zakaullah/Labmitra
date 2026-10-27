@@ -43,6 +43,41 @@ const schema = obj({
   disclaimer: str,
 });
 
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+// Pehle GEMINI_MODEL, phir backup models (GEMINI_FALLBACK_MODELS, comma se alag)
+const MODELS = Array.from(
+  new Set(
+    [
+      process.env.GEMINI_MODEL || "gemini-3.8-flash",
+      ...(process.env.GEMINI_FALLBACK_MODELS || "gemini-3.6-flash,gemini-3.5-flash").split(","),
+    ]
+      .map((m) => m.trim())
+      .filter(Boolean)
+  )
+);
+
+// Busy (503/429) ya model band (404) hone par retry + backup model
+async function generate(ai: GoogleGenAI, params: any) {
+  let lastErr: any;
+  for (const model of MODELS) {
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        return await ai.models.generateContent({ ...params, model });
+      } catch (e: any) {
+        lastErr = e;
+        const msg = String(e?.message || "");
+        const busy = /503|429|UNAVAILABLE|high demand|RESOURCE_EXHAUSTED/i.test(msg);
+        const gone = /404|no longer available|not found/i.test(msg);
+        if (!busy && !gone) throw e;
+        if (busy && attempt === 0) await sleep(1500);
+        else break;
+      }
+    }
+  }
+  throw lastErr;
+}
+
 export async function POST(req: Request) {
   try {
     if (!process.env.GEMINI_API_KEY)
@@ -62,8 +97,7 @@ export async function POST(req: Request) {
 
     const data = Buffer.from(await file.arrayBuffer()).toString("base64");
 
-    const res = await ai.models.generateContent({
-      model: process.env.GEMINI_MODEL || "gemini-2.5-flash",
+    const res = await generate(ai, {
       contents: [
         {
           role: "user",

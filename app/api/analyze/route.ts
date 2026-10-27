@@ -1,80 +1,125 @@
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI, Type } from "@google/genai";
+import { langLabel } from "@/lib/languages";
 
 export const maxDuration = 60;
 
+const SYSTEM = `You are LabMitra, a friendly medical-report explainer for common people in India.
+You read an uploaded lab report (image/PDF) and explain it in very simple words.
+
+RULES:
+- Write ALL text fields in the requested language. If language is "Hinglish", use Hindi written in Roman/English letters mixed with simple English words. Use simple everyday words; explain any medical term.
+- You are NOT a doctor. Never claim a confirmed diagnosis. Use "possible / ho sakta hai" style language.
+- Read every value carefully. Compare with the reference range printed on the report. If absent, use standard adult ranges and say so.
+- Only list abnormal values in "abnormalValues". Mention normal results briefly in "summary".
+- "conditions": likely health issues suggested by abnormal values, short reason, severity (low/medium/high).
+- "diet": practical, affordable, LOCAL food advice using the user's city/state. Specific to the abnormal values.
+- "doctors": exactly 3 specialties ranked by priority (rank 1 = most important), with typical degree (e.g. MD Medicine, DM Nephrology, DNB) and urgency (routine/soon/urgent).
+- If any value is critically abnormal, mark rank 1 as "urgent" and say to see a doctor immediately.
+- "audioScript": 30-40 second spoken script (about 90-110 words) in the requested language: greeting, main finding, top 2 diet tips, which doctor to see, closing line to consult a doctor. No lists, symbols or markdown.
+- If the file is not a medical report, set isMedicalReport=false, explain briefly in "summary", leave arrays empty.
+- Always include a short disclaimer in the requested language.`;
+
+const str = { type: Type.STRING };
+const strArr = { type: Type.ARRAY, items: { type: Type.STRING } };
+const obj = (properties: any) => ({
+  type: Type.OBJECT, properties, required: Object.keys(properties),
+});
+
+const schema = obj({
+  isMedicalReport: { type: Type.BOOLEAN },
+  reportType: str,
+  summary: str,
+  conditions: { type: Type.ARRAY, items: obj({ name: str, why: str, severity: str }) },
+  abnormalValues: {
+    type: Type.ARRAY,
+    items: obj({ test: str, value: str, normalRange: str, status: str, meaning: str }),
+  },
+  diet: obj({ eat: strArr, avoid: strArr, lifestyle: strArr }),
+  doctors: {
+    type: Type.ARRAY,
+    items: obj({ rank: { type: Type.INTEGER }, specialty: str, degree: str, reason: str, urgency: str }),
+  },
+  audioScript: str,
+  disclaimer: str,
+});
+
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-// Pehle GEMINI_TTS_MODEL, phir backup audio models
-const TTS_MODELS = Array.from(
+// Pehle GEMINI_MODEL, phir backup models (GEMINI_FALLBACK_MODELS, comma se alag)
+const MODELS = Array.from(
   new Set(
     [
-      process.env.GEMINI_TTS_MODEL || "gemini-3.1-flash-tts-preview",
-      ...(process.env.GEMINI_TTS_FALLBACK_MODELS || "gemini-2.5-flash-preview-tts").split(","),
+      process.env.GEMINI_MODEL || "gemini-3.8-flash",
+      ...(process.env.GEMINI_FALLBACK_MODELS || "gemini-3.6-flash,gemini-3.5-flash").split(","),
     ]
       .map((m) => m.trim())
       .filter(Boolean)
   )
 );
 
-// Gemini TTS raw PCM (16-bit, mono) deta hai -> WAV header lagao
-function pcmToWav(pcm: Buffer, rate = 24000) {
-  const h = Buffer.alloc(44);
-  h.write("RIFF", 0);
-  h.writeUInt32LE(36 + pcm.length, 4);
-  h.write("WAVEfmt ", 8);
-  h.writeUInt32LE(16, 16);
-  h.writeUInt16LE(1, 20);
-  h.writeUInt16LE(1, 22);
-  h.writeUInt32LE(rate, 24);
-  h.writeUInt32LE(rate * 2, 28);
-  h.writeUInt16LE(2, 32);
-  h.writeUInt16LE(16, 34);
-  h.write("data", 36);
-  h.writeUInt32LE(pcm.length, 40);
-  return Buffer.concat([h, pcm]);
+// Busy (503/429), model band (404) ya slow ho to backup model. Vercel ke 60s se pehle ruk jata hai.
+async function generate(ai: GoogleGenAI, params: any): Promise<any> {
+  const start = Date.now();
+  let lastErr: any;
+  for (const model of MODELS) {
+    if (Date.now() - start > 35000) break;
+    try {
+      return await Promise.race([
+        ai.models.generateContent({ ...params, model }),
+        new Promise((_, rej) => setTimeout(() => rej(new Error("503 model bahut slow hai")), 28000)),
+      ]);
+    } catch (e: any) {
+      lastErr = e;
+      const msg = String(e?.message || "");
+      const retry = /503|429|UNAVAILABLE|high demand|RESOURCE_EXHAUSTED|404|no longer available|not found/i.test(msg);
+      if (!retry) throw e;
+    }
+  }
+  throw lastErr;
 }
 
 export async function POST(req: Request) {
   try {
     if (!process.env.GEMINI_API_KEY)
-      return Response.json({ error: "GEMINI_API_KEY set nahi hai" }, { status: 500 });
+      return Response.json({ error: "GEMINI_API_KEY set nahi hai (.env.local check karo)" }, { status: 500 });
     const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
-    const { text } = await req.json();
-    if (!text || text.length > 2000)
-      return Response.json({ error: "Invalid text" }, { status: 400 });
+    const form = await req.formData();
+    const file = form.get("file") as File | null;
+    const language = String(form.get("language") || "hinglish");
+    const city = String(form.get("city") || "India");
 
-    let lastErr = "";
-    for (const model of TTS_MODELS) {
-      for (let attempt = 0; attempt < 2; attempt++) {
-        try {
-          const res = await ai.models.generateContent({
-            model,
-            contents: [{ role: "user", parts: [{ text }] }],
-            config: {
-              responseModalities: ["AUDIO"],
-              speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: "Kore" } } },
-            },
-          });
-          const part = res.candidates?.[0]?.content?.parts?.find((p: any) => p.inlineData?.data);
-          const b64 = part?.inlineData?.data;
-          if (!b64) throw new Error("No audio in response");
-          const rate = Number(/rate=(\d+)/.exec(part?.inlineData?.mimeType || "")?.[1]) || 24000;
-          const wav = pcmToWav(Buffer.from(b64, "base64"), rate);
-          return new Response(new Uint8Array(wav), {
-            headers: { "Content-Type": "audio/wav", "Cache-Control": "no-store" },
-          });
-        } catch (e: any) {
-          lastErr = String(e?.message || e).slice(0, 200);
-          console.error("TTS", model, lastErr);
-          if (/503|429|UNAVAILABLE|high demand/i.test(lastErr) && attempt === 0) await sleep(1200);
-          else break;
-        }
-      }
-    }
-    return Response.json({ error: "Audio nahi bana: " + lastErr }, { status: 500 });
+    if (!file) return Response.json({ error: "File missing" }, { status: 400 });
+    if (file.size > 4 * 1024 * 1024)
+      return Response.json({ error: "File 4MB se chhoti honi chahiye" }, { status: 413 });
+    if (!/^(image\/|application\/pdf)/.test(file.type))
+      return Response.json({ error: "Sirf image ya PDF" }, { status: 400 });
+
+    const data = Buffer.from(await file.arrayBuffer()).toString("base64");
+
+    const res = await generate(ai, {
+      contents: [
+        {
+          role: "user",
+          parts: [
+            { inlineData: { mimeType: file.type, data } },
+            { text: `Requested language: ${langLabel(language)} (${language}). User location: ${city}. Analyze this lab report.` },
+          ],
+        },
+      ],
+      config: {
+        systemInstruction: SYSTEM,
+        responseMimeType: "application/json",
+        responseSchema: schema as any,
+        temperature: 0.3,
+      },
+    });
+
+    const json = JSON.parse(res.text ?? "{}");
+    json.doctors?.sort((a: any, b: any) => a.rank - b.rank);
+    return Response.json(json);
   } catch (e: any) {
     console.error(e);
-    return Response.json({ error: "Audio generate nahi hua" }, { status: 500 });
+    return Response.json({ error: "Analysis fail ho gaya: " + (e?.message?.slice(0, 150) || "dobara try karo") }, { status: 500 });
   }
 }

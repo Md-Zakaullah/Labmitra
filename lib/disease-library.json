@@ -1,0 +1,181 @@
+{
+  "notice": "Starter educational summaries only; not exhaustive, not a diagnostic tool, and not independently clinically reviewed. Seek clinician assessment for personal symptoms.",
+  "verificationStatus": "educational_unreviewed",
+  "entries": [
+    {
+      "category": "Endocrine & metabolic",
+      "name": "PCOS / PCOD",
+      "summary": "Irregular periods, acne, excess facial hair or difficulty conceiving can occur; symptoms vary and other causes need exclusion. A clinician may assess history, examination and selected hormone/metabolic tests. No single symptom or ultrasound alone confirms PCOS.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Endocrine & metabolic",
+      "name": "Hypothyroidism",
+      "summary": "An underactive thyroid can be associated with fatigue, cold sensitivity, constipation, dry skin or menstrual changes. Symptoms are nonspecific; clinicians commonly interpret TSH with free T4 and the clinical context.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Endocrine & metabolic",
+      "name": "Hyperthyroidism",
+      "summary": "An overactive thyroid can be associated with palpitations, tremor, heat intolerance, weight change or anxiety. Assessment commonly includes TSH and thyroid hormone testing; urgent assessment is needed for severe breathlessness, chest pain or confusion.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Endocrine & metabolic",
+      "name": "Type 2 diabetes",
+      "summary": "High blood glucose over time. It may cause thirst, frequent urination, fatigue or blurred vision, but can also have no symptoms. Diagnosis requires appropriate laboratory criteria and sometimes repeat confirmation.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Cardiovascular",
+      "name": "High blood pressure",
+      "summary": "Often has no symptoms. Accurate repeated blood-pressure measurements are needed; a single reading may not establish chronic hypertension. Severe readings with chest pain, breathlessness, weakness or vision/speech changes need emergency assessment.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Cardiovascular",
+      "name": "Heart attack",
+      "summary": "Possible symptoms include chest pressure/pain, breathlessness, sweating, nausea or pain spreading to arm, jaw or back. Symptoms can be atypical. Suspected heart attack is an emergency; do not wait for an online assessment.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Respiratory",
+      "name": "Asthma",
+      "summary": "Can cause episodic wheeze, cough, chest tightness or breathlessness. Diagnosis requires clinical assessment and often lung-function testing. Severe difficulty speaking, blue lips or worsening breathlessness is an emergency.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Respiratory",
+      "name": "Pneumonia",
+      "summary": "A lung infection may cause fever, cough, chest discomfort or breathlessness. Severity varies; assessment may include examination, oxygen level and chest imaging when indicated. Severe breathing difficulty or confusion needs urgent care.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Infectious diseases",
+      "name": "Dengue",
+      "summary": "May cause fever, headache, body aches, rash or nausea. Warning signs can appear as fever settles, including severe abdominal pain, persistent vomiting, bleeding, lethargy or breathing difficulty; seek urgent medical care for these. Avoid self-medicating with aspirin/ibuprofen when dengue is suspected; ask a clinician.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Infectious diseases",
+      "name": "Malaria",
+      "summary": "Fever, chills, sweating, headache or weakness can occur, but symptoms are not specific. Prompt testing and clinician-directed treatment are important. Confusion, seizures, breathing difficulty or collapse is an emergency.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Infectious diseases",
+      "name": "Typhoid / enteric fever",
+      "summary": "Can cause prolonged fever, headache, abdominal symptoms and weakness. Blood culture may help confirm; Widal alone is not reliable for confirming typhoid. Do not self-start antibiotics.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Digestive & liver",
+      "name": "Acid reflux / GERD",
+      "summary": "Can cause burning behind the breastbone or sour regurgitation. Chest pain must not automatically be assumed to be acidity. Difficulty swallowing, vomiting blood, black stools or unexplained weight loss need medical evaluation.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Digestive & liver",
+      "name": "Irritable bowel syndrome (IBS)",
+      "summary": "May involve recurrent abdominal pain related to bowel movements with constipation, diarrhoea or both. Other causes need consideration, especially with blood in stool, fever, anaemia, night symptoms or weight loss.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Kidney & urinary",
+      "name": "Urinary tract infection (UTI)",
+      "summary": "May cause burning urination, urgency or frequent urination. Fever, flank pain, vomiting, pregnancy or feeling very unwell warrants prompt clinician assessment. Testing and treatment depend on context.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Kidney & urinary",
+      "name": "Kidney stones",
+      "summary": "Can cause severe side/back pain, nausea or blood in urine. Fever with suspected stone, inability to pass urine, a single kidney or uncontrolled pain requires urgent assessment.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Blood & nutrition",
+      "name": "Iron-deficiency anaemia",
+      "summary": "May cause tiredness, weakness, breathlessness on exertion or pallor. A blood count and iron studies may be considered; the cause of iron deficiency should also be assessed rather than assuming diet alone.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Women's health",
+      "name": "Endometriosis",
+      "summary": "May cause painful periods, pelvic pain, pain during sex or fertility difficulties. Symptoms overlap with other conditions; diagnosis and management require a clinician, often a gynaecologist.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Women's health",
+      "name": "Uterine fibroids",
+      "summary": "Non-cancerous uterine growths may cause heavy periods, pelvic pressure or no symptoms. Assessment depends on symptoms, examination and sometimes ultrasound.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Mental health",
+      "name": "Depression",
+      "summary": "Can involve persistent low mood or loss of interest, sleep/appetite changes, low energy or difficulty concentrating. A qualified professional can assess and discuss support. Thoughts of self-harm or immediate danger require urgent local emergency/crisis help.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Neurological",
+      "name": "Migraine",
+      "summary": "Often causes recurring headache with nausea or sensitivity to light/sound; some people have aura. A sudden worst-ever headache, new weakness, confusion, fever with stiff neck or headache after injury needs urgent assessment.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Musculoskeletal",
+      "name": "Osteoarthritis",
+      "summary": "Can cause joint pain and stiffness, often worse with activity. A clinician considers symptoms and examination; imaging is not always required.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Skin & allergy",
+      "name": "Eczema / atopic dermatitis",
+      "summary": "Often causes itchy, dry, inflamed skin. Triggers and severity vary; infected-looking skin, fever or rapidly spreading redness needs medical assessment.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Men's health",
+      "name": "Benign prostate enlargement (BPH)",
+      "summary": "May cause weak urine stream, hesitancy, frequent night urination or incomplete emptying. Inability to urinate is urgent and needs immediate medical care.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Eye health",
+      "name": "Cataract",
+      "summary": "Can cause gradual painless blurry vision, glare or faded colours. Sudden vision loss or painful red eye is not typical and needs urgent eye assessment.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "category": "Child health",
+      "name": "Childhood fever",
+      "summary": "Fever is a symptom with many causes. Age, appearance, hydration and associated symptoms matter. A baby under 3 months with temperature 38°C or higher needs urgent medical assessment.",
+      "source": "Starter educational content; requires clinical review",
+      "verificationStatus": "educational_unreviewed"
+    }
+  ]
+}

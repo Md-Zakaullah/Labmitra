@@ -32,15 +32,17 @@ const MAX_MESSAGE_CHARS = 500;
 const AI_TIMEOUT_MS = 12_000;
 
 // Should records that are not doctor-verified be shown (always with a "review pending" banner)?
-// Priority: env var MEDICAL_ALLOW_UNREVIEWED (true/false) > _meta/runtime-config.json > off.
+// Priority: env var MEDICAL_ALLOW_UNREVIEWED (true/false) > _meta/runtime-config.json (if present) > ON.
+// To turn it OFF: set env var MEDICAL_ALLOW_UNREVIEWED=false (Vercel) or change this default to false.
 function unreviewedPolicy() {
   const env = String(process.env.MEDICAL_ALLOW_UNREVIEWED ?? "").trim().toLowerCase();
   if (["true", "1", "yes"].includes(env)) return { allow: true, source: "env" };
   if (["false", "0", "no"].includes(env)) return { allow: false, source: "env" };
   try {
-    if (loadLibrary().config?.allow_unreviewed_content === true) return { allow: true, source: "config_file" };
+    const flag = loadLibrary().config?.allow_unreviewed_content;
+    if (typeof flag === "boolean") return { allow: flag, source: "config_file" };
   } catch {}
-  return { allow: false, source: "default_off" };
+  return { allow: true, source: "code_default" };
 }
 
 const baseResponse = (over) => ({

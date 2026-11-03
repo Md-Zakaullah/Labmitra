@@ -1,0 +1,158 @@
+[
+  {
+    "id": "asthma",
+    "name_en": "Asthma",
+    "name_hi": "दमा / अस्थमा",
+    "name_aliases": [
+      "asthma",
+      "dama",
+      "दमा",
+      "अस्थमा",
+      "wheezing problem"
+    ],
+    "category": "respiratory",
+    "summary": "Asthma is a long-term condition in which the airways become inflamed and narrow, causing wheezing, cough, chest tightness and breathlessness. Symptoms come and go and are often triggered by dust, smoke, pollution, cold air, infections or exercise. It can be controlled with proper medical care.",
+    "symptoms": [
+      "Wheezing (whistling sound while breathing)",
+      "Cough, often worse at night or early morning",
+      "Chest tightness",
+      "Breathlessness",
+      "Symptoms triggered by dust, smoke, cold air, exercise or infections"
+    ],
+    "keywords": {
+      "en": [
+        "asthma",
+        "wheezing",
+        "cough at night",
+        "chest tightness",
+        "breathlessness",
+        "shortness of breath",
+        "dust allergy"
+      ],
+      "hi": [
+        "अस्थमा",
+        "दमा",
+        "सांस में सीटी",
+        "सीने में जकड़न",
+        "सांस फूलना",
+        "खांसी"
+      ],
+      "hinglish": [
+        "asthma",
+        "dama",
+        "seeti jaisi awaaz",
+        "seene me jakdan",
+        "saans phulna",
+        "raat ko khansi",
+        "dhool se allergy"
+      ]
+    },
+    "causes": [
+      "Airway inflammation influenced by genetics and allergies",
+      "Triggers include dust mites, pollen, smoke, air pollution, strong smells, cold air, respiratory infections and exercise"
+    ],
+    "risk_factors": [
+      "Family history of asthma or allergies",
+      "Tobacco smoke exposure and indoor smoke (for example cooking fuel)",
+      "High air pollution",
+      "Occupational dust or chemical exposure",
+      "Eczema or allergic rhinitis"
+    ],
+    "tests": [
+      {
+        "name": "Spirometry (lung function test)",
+        "type": "diagnostic",
+        "purpose": "Measures airflow and how it improves after an inhaler.",
+        "preparation": {
+          "fasting": "Not required.",
+          "other": "The lab may ask you to avoid smoking, heavy exercise or a large meal beforehand, and may give instructions about when to take or hold your usual inhalers."
+        },
+        "exceptions": "Do not stop any prescribed medicine on your own; follow the doctor's or lab's instruction. Young children may not be able to perform spirometry."
+      },
+      {
+        "name": "Peak flow monitoring",
+        "type": "monitoring",
+        "purpose": "Tracks day-to-day variation at home.",
+        "preparation": {
+          "other": "Technique is taught by the doctor or nurse."
+        },
+        "exceptions": null
+      },
+      {
+        "name": "Chest X-ray, allergy tests or blood tests",
+        "type": "diagnostic (selected cases)",
+        "purpose": "Used to look for other causes or triggers.",
+        "preparation": {},
+        "exceptions": "Not required for everyone."
+      }
+    ],
+    "specialist": {
+      "primary": "General Physician",
+      "also": [
+        "Pulmonologist / Chest physician",
+        "Paediatrician (children)",
+        "Allergy specialist (if referred)"
+      ]
+    },
+    "prevention": [
+      "Avoid tobacco and second-hand smoke",
+      "Reduce dust exposure at home; use clean cooking fuel and good ventilation",
+      "On high-pollution days, limit strenuous outdoor activity as advised by your doctor"
+    ],
+    "lifestyle": [
+      "Keep a written asthma action plan from your doctor",
+      "Take preventer and reliever inhalers only as prescribed and learn the correct technique",
+      "Get the doctor's advice on vaccines such as the flu vaccine"
+    ],
+    "red_flags": [
+      "Severe breathlessness or unable to speak in full sentences",
+      "Blue or grey lips or face",
+      "Reliever inhaler not helping or needed again and again",
+      "Drowsiness, confusion or exhaustion",
+      "Chest pain with difficulty breathing"
+    ],
+    "when_to_consult": [
+      "Wheeze, night cough or breathlessness that keeps returning",
+      "Increasing need for the reliever inhaler"
+    ],
+    "special_populations": [
+      "Children: recurrent cough or wheeze should be assessed by a paediatrician",
+      "Pregnancy: do not stop asthma medicine without medical advice; uncontrolled asthma is also risky",
+      "Older adults: asthma can overlap with COPD and heart disease; the doctor will assess"
+    ],
+    "faqs": [
+      {
+        "q": "Is asthma curable?",
+        "a": "It is usually a long-term condition that can be well controlled with the right treatment and trigger control."
+      },
+      {
+        "q": "Do I stop my inhaler before a lung test?",
+        "a": "Only if your doctor or lab tells you to. Do not stop on your own."
+      }
+    ],
+    "sources": [
+      {
+        "organization": "World Health Organization (WHO)",
+        "title": "Asthma (fact sheet)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/asthma",
+        "url_status": "seen_in_search"
+      },
+      {
+        "organization": "ICMR",
+        "title": "ICMR/professional guidelines on asthma (reviewer to locate current edition)",
+        "url": null,
+        "url_status": "needs_source"
+      }
+    ],
+    "review": {
+      "status": "pending_review",
+      "reviewer": null,
+      "last_verified": null,
+      "notes": "AI-assisted draft from general public-health guidance. Needs clinician review and source-URL check before it can be marked verified."
+    },
+    "dates": {
+      "published": "2026-11-02",
+      "updated": "2026-11-02"
+    }
+  }
+]

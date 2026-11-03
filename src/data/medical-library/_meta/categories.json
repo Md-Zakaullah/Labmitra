@@ -1,0 +1,22 @@
+[
+  { "id": "endocrine", "en": "Hormonal & Endocrine Diseases", "hi": "हार्मोनल और एंडोक्राइन रोग" },
+  { "id": "womens-health", "en": "Women's Health & Reproductive Diseases", "hi": "महिला स्वास्थ्य और प्रजनन रोग" },
+  { "id": "pregnancy", "en": "Pregnancy & Maternal Health", "hi": "गर्भावस्था और मातृ स्वास्थ्य" },
+  { "id": "cardiovascular", "en": "Heart & Cardiovascular Diseases", "hi": "हृदय और रक्तवाहिका रोग" },
+  { "id": "digestive-liver", "en": "Digestive System & Liver Diseases", "hi": "पाचन तंत्र और लिवर रोग" },
+  { "id": "kidney-urinary", "en": "Kidney & Urinary Diseases", "hi": "किडनी और मूत्र रोग" },
+  { "id": "blood-nutrition", "en": "Blood & Nutritional Diseases", "hi": "रक्त और पोषण संबंधी रोग" },
+  { "id": "respiratory", "en": "Respiratory & Lung Diseases", "hi": "श्वसन और फेफड़ों के रोग" },
+  { "id": "infectious", "en": "Infectious & Communicable Diseases", "hi": "संक्रामक रोग" },
+  { "id": "neurological", "en": "Neurological Diseases", "hi": "तंत्रिका संबंधी रोग" },
+  { "id": "mental-health", "en": "Mental Health Conditions", "hi": "मानसिक स्वास्थ्य" },
+  { "id": "skin-hair", "en": "Skin & Hair Diseases", "hi": "त्वचा और बालों के रोग" },
+  { "id": "bone-joint-muscle", "en": "Bone, Joint & Muscular Diseases", "hi": "हड्डी, जोड़ और मांसपेशियों के रोग" },
+  { "id": "eye", "en": "Eye Diseases", "hi": "आँखों के रोग" },
+  { "id": "ent", "en": "Ear, Nose & Throat Diseases", "hi": "कान, नाक और गले के रोग" },
+  { "id": "dental-oral", "en": "Dental & Oral Health", "hi": "दाँत और मुँह का स्वास्थ्य" },
+  { "id": "cancer", "en": "Cancer & Oncology", "hi": "कैंसर और ऑन्कोलॉजी" },
+  { "id": "mens-health", "en": "Men's Health", "hi": "पुरुष स्वास्थ्य" },
+  { "id": "child-adolescent", "en": "Childhood & Adolescent Diseases", "hi": "बच्चों और किशोरों के रोग" },
+  { "id": "symptoms-allergy-other", "en": "Common Symptoms, Allergies & Other Conditions", "hi": "सामान्य लक्षण, एलर्जी और अन्य स्थितियाँ" }
+]

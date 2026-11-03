@@ -1,0 +1,377 @@
+[
+  {
+    "id": "diabetes",
+    "name_en": "Diabetes",
+    "name_hi": "मधुमेह",
+    "name_aliases": [
+      "diabetes mellitus",
+      "type 2 diabetes",
+      "डायबिटीज",
+      "madhumeh",
+      "sugar ki bimari"
+    ],
+    "category": "endocrine",
+    "summary": "Diabetes is a long-term condition in which blood sugar stays too high because the body does not make enough insulin or cannot use it well. Type 1 usually starts early and needs insulin; type 2 is more common in adults and is linked to weight, activity and family history. Gestational diabetes can appear during pregnancy.",
+    "symptoms": [
+      "Increased thirst",
+      "Passing urine more often",
+      "Tiredness",
+      "Blurred vision",
+      "Unexplained weight loss",
+      "Slow-healing wounds",
+      "Frequent infections",
+      "Many people with type 2 diabetes have no symptoms at first"
+    ],
+    "keywords": {
+      "en": [
+        "diabetes",
+        "high blood sugar",
+        "blood sugar",
+        "excessive thirst",
+        "frequent urination",
+        "blurred vision",
+        "weight loss",
+        "tiredness",
+        "slow healing wound"
+      ],
+      "hi": [
+        "मधुमेह",
+        "डायबिटीज",
+        "शुगर",
+        "ब्लड शुगर",
+        "ज्यादा प्यास",
+        "बार बार पेशाब",
+        "धुंधला दिखना",
+        "घाव देर से भरना"
+      ],
+      "hinglish": [
+        "diabetes",
+        "sugar",
+        "sugar high",
+        "high sugar",
+        "blood sugar",
+        "zyada pyaas",
+        "baar baar peshab",
+        "dhundhla dikhna",
+        "ghav der se bharna",
+        "wajan kam hona"
+      ]
+    },
+    "causes": [
+      "Type 1: the immune system damages insulin-producing cells.",
+      "Type 2: reduced insulin action combined with insufficient insulin over time.",
+      "Gestational: hormonal changes of pregnancy."
+    ],
+    "risk_factors": [
+      "Family history of diabetes",
+      "Overweight, especially around the waist",
+      "Low physical activity",
+      "Age above 30 to 35 (earlier screening is advised for many Indians at risk)",
+      "High blood pressure or abnormal cholesterol",
+      "History of gestational diabetes or PCOS"
+    ],
+    "tests": [
+      {
+        "name": "Fasting plasma glucose",
+        "type": "screening and diagnostic",
+        "purpose": "Measures blood sugar after an overnight fast.",
+        "preparation": {
+          "fasting": "Usually 8 hours without food (water allowed).",
+          "other": "Preparation can differ between labs and between patients; follow the instructions of your doctor or lab."
+        },
+        "exceptions": "Not suitable if the person is unwell or has been fasting for much longer; the doctor decides."
+      },
+      {
+        "name": "HbA1c",
+        "type": "screening and diagnostic",
+        "purpose": "Shows average blood sugar over about 3 months.",
+        "preparation": {
+          "fasting": "Not required."
+        },
+        "exceptions": "Can be unreliable with anaemia, thalassaemia/haemoglobin variants, recent blood loss or transfusion, and in pregnancy; the doctor may choose a glucose test instead."
+      },
+      {
+        "name": "Oral glucose tolerance test (OGTT)",
+        "type": "diagnostic",
+        "purpose": "Measures how the body handles a glucose drink; used for specific situations such as pregnancy screening.",
+        "preparation": {
+          "fasting": "Usually an overnight fast, as instructed by the lab or doctor.",
+          "other": "Follow the lab's instructions about diet and rest before the test."
+        },
+        "exceptions": "The glucose amount, timing and fasting rules differ in pregnancy; follow the antenatal doctor's protocol."
+      },
+      {
+        "name": "Random plasma glucose",
+        "type": "diagnostic (with symptoms)",
+        "purpose": "A quick check when symptoms of high sugar are present.",
+        "preparation": {
+          "fasting": "Not required."
+        },
+        "exceptions": null
+      },
+      {
+        "name": "Kidney function, urine albumin and lipid profile",
+        "type": "monitoring",
+        "purpose": "Checks for complications and heart risk once diabetes is diagnosed.",
+        "preparation": {
+          "fasting": "Depends: a fasting sample is needed only for some lipid tests, the lab or doctor will tell you."
+        },
+        "exceptions": "Not every patient needs every test at every visit."
+      }
+    ],
+    "specialist": {
+      "primary": "General Physician (first consultation)",
+      "also": [
+        "Diabetologist / Endocrinologist",
+        "Paediatric Endocrinologist (children)",
+        "Gynaecologist/Obstetrician (gestational diabetes)"
+      ]
+    },
+    "prevention": [
+      "Maintain a healthy weight",
+      "Be physically active regularly",
+      "Choose whole grains, pulses, vegetables and fruit; limit sugary drinks, sweets and refined foods",
+      "Avoid tobacco"
+    ],
+    "lifestyle": [
+      "Take medicines or insulin only as prescribed; never stop or change them on your own",
+      "Check feet daily and wear comfortable footwear",
+      "Have regular eye, kidney and cholesterol checks as advised"
+    ],
+    "red_flags": [
+      "Vomiting, abdominal pain, fast breathing or fruity-smelling breath (possible diabetic ketoacidosis)",
+      "Confusion, extreme drowsiness or fainting",
+      "Sweating, shaking and sudden weakness in a person on diabetes medicine (possible very low sugar)",
+      "A foot wound that looks infected or is not healing"
+    ],
+    "when_to_consult": [
+      "Persistent thirst, frequent urination, weight loss or blurred vision",
+      "Adults with risk factors should ask a doctor about screening, even without symptoms"
+    ],
+    "special_populations": [
+      "Children and teenagers with these symptoms should see a doctor quickly (type 1 can progress fast)",
+      "Pregnancy: screening for gestational diabetes is done by the antenatal doctor with a specific protocol",
+      "Older adults may have fewer classic symptoms"
+    ],
+    "faqs": [
+      {
+        "q": "Do I always need to fast for a diabetes test?",
+        "a": "No. HbA1c and random glucose do not need fasting. Fasting glucose and some OGTT protocols do. Follow your doctor or lab."
+      },
+      {
+        "q": "Does one high reading confirm diabetes?",
+        "a": "Not necessarily. Doctors interpret results with symptoms and may repeat the test."
+      }
+    ],
+    "sources": [
+      {
+        "organization": "World Health Organization (WHO)",
+        "title": "Diabetes (fact sheet)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+        "url_status": "seen_in_search"
+      },
+      {
+        "organization": "ICMR",
+        "title": "ICMR guidelines for management of type 2 diabetes (reviewer to locate current edition)",
+        "url": null,
+        "url_status": "needs_source"
+      }
+    ],
+    "review": {
+      "status": "pending_review",
+      "reviewer": null,
+      "last_verified": null,
+      "notes": "AI-assisted draft from general public-health guidance. Needs clinician review and source-URL check before it can be marked verified."
+    },
+    "dates": {
+      "published": "2026-11-02",
+      "updated": "2026-11-02"
+    }
+  },
+  {
+    "id": "thyroid-disorders",
+    "name_en": "Thyroid disorders",
+    "name_hi": "थायराइड की समस्या",
+    "name_aliases": [
+      "thyroid",
+      "hypothyroidism",
+      "hyperthyroidism",
+      "थायराइड",
+      "थायरॉइड",
+      "underactive thyroid",
+      "overactive thyroid"
+    ],
+    "category": "endocrine",
+    "summary": "The thyroid is a small gland in the neck that controls body metabolism. If it makes too little hormone (hypothyroidism) or too much (hyperthyroidism), many body systems are affected. A swelling in the neck (goitre) can occur in either case or with iodine deficiency.",
+    "symptoms": [
+      "Hypothyroid pattern: tiredness, weight gain, feeling cold, dry skin, constipation, hair fall, low mood, heavy or irregular periods",
+      "Hyperthyroid pattern: weight loss, feeling hot, fast heartbeat, tremor, anxiety, sweating, loose motions",
+      "Swelling in the front of the neck"
+    ],
+    "keywords": {
+      "en": [
+        "thyroid",
+        "hypothyroidism",
+        "hyperthyroidism",
+        "goitre",
+        "neck swelling",
+        "weight gain",
+        "weight loss",
+        "tiredness",
+        "hair fall",
+        "heat intolerance",
+        "cold intolerance",
+        "palpitations",
+        "tsh"
+      ],
+      "hi": [
+        "थायराइड",
+        "घेंघा",
+        "गले में सूजन",
+        "वजन बढ़ना",
+        "वजन कम होना",
+        "बाल झड़ना",
+        "थकान",
+        "ठंड ज्यादा लगना",
+        "गर्मी ज्यादा लगना",
+        "धड़कन तेज"
+      ],
+      "hinglish": [
+        "thyroid",
+        "ghengha",
+        "gala sujna",
+        "wajan badhna",
+        "wajan kam hona",
+        "baal jhadna",
+        "thakan",
+        "thand zyada lagna",
+        "garmi zyada lagna",
+        "dhadkan tez",
+        "tsh"
+      ]
+    },
+    "causes": [
+      "Autoimmune thyroid disease (a common cause)",
+      "Iodine deficiency or excess",
+      "Thyroid nodules, inflammation, or past thyroid surgery/treatment",
+      "Some medicines"
+    ],
+    "risk_factors": [
+      "Family history of thyroid disease",
+      "Female sex and age above 30 to 35",
+      "Other autoimmune conditions",
+      "Pregnancy and the postpartum period",
+      "Living in iodine-deficient areas"
+    ],
+    "tests": [
+      {
+        "name": "TSH (thyroid stimulating hormone)",
+        "type": "screening and diagnostic",
+        "purpose": "First-line test to see whether the thyroid is under- or overactive.",
+        "preparation": {
+          "fasting": "Not required.",
+          "other": "Same-time-of-day sampling helps compare repeated results. Tell the lab about thyroid medicine, biotin or other supplements."
+        },
+        "exceptions": "Biotin supplements can disturb some lab results; the doctor may ask you to pause them for a few days before testing. Do not stop any prescribed medicine on your own."
+      },
+      {
+        "name": "Free T4 (and sometimes Free T3)",
+        "type": "diagnostic",
+        "purpose": "Confirms the type and degree of thyroid problem when TSH is abnormal.",
+        "preparation": {
+          "fasting": "Not required.",
+          "other": "Preparation can differ between labs and between patients; follow the instructions of your doctor or lab."
+        },
+        "exceptions": null
+      },
+      {
+        "name": "Anti-TPO antibodies",
+        "type": "diagnostic (selected cases)",
+        "purpose": "Looks for autoimmune thyroid disease.",
+        "preparation": {
+          "fasting": "Not required."
+        },
+        "exceptions": "Not needed for everyone."
+      },
+      {
+        "name": "Thyroid ultrasound",
+        "type": "diagnostic (selected cases)",
+        "purpose": "Looks at neck swelling or nodules.",
+        "preparation": {
+          "other": "Usually no special preparation; follow the centre's instructions."
+        },
+        "exceptions": "Ordered only when the doctor suspects a swelling or nodule."
+      }
+    ],
+    "specialist": {
+      "primary": "General Physician (first consultation)",
+      "also": [
+        "Endocrinologist",
+        "Gynaecologist/Obstetrician (pregnancy or menstrual problems)"
+      ]
+    },
+    "prevention": [
+      "Use iodised salt in normal amounts (WHO advises less than 5 g salt per day overall)",
+      "Do not take iodine or thyroid supplements without medical advice"
+    ],
+    "lifestyle": [
+      "If a thyroid medicine is prescribed, take it exactly as advised and keep follow-up tests",
+      "Do not change or stop the dose on your own"
+    ],
+    "red_flags": [
+      "Very fast or irregular heartbeat with chest pain or breathlessness",
+      "Neck swelling with difficulty breathing or swallowing",
+      "Extreme sleepiness, confusion, very slow heartbeat or feeling extremely cold",
+      "High fever, agitation and confusion in a person with known thyroid illness"
+    ],
+    "when_to_consult": [
+      "Persistent tiredness with weight change, hair fall, temperature intolerance or menstrual change",
+      "Any swelling or lump in the neck"
+    ],
+    "special_populations": [
+      "Pregnancy: thyroid levels are interpreted with pregnancy-specific ranges; consult the antenatal doctor early",
+      "Newborns and children: persistent tiredness, poor growth or neck swelling need a paediatrician",
+      "Older adults may have fewer typical symptoms"
+    ],
+    "faqs": [
+      {
+        "q": "Do I need to fast for a thyroid test?",
+        "a": "Usually not for TSH, but follow your doctor's or lab's instructions, especially about medicines and supplements like biotin."
+      },
+      {
+        "q": "Is weight gain always because of thyroid?",
+        "a": "No. Many other causes exist; a doctor decides whether a thyroid test is needed."
+      }
+    ],
+    "sources": [
+      {
+        "organization": "ICMR",
+        "title": "Guidance on thyroid disorders (reviewer to identify source)",
+        "url": null,
+        "url_status": "needs_source"
+      },
+      {
+        "organization": "World Health Organization (WHO)",
+        "title": "Iodine deficiency / salt reduction guidance (reviewer to confirm URLs)",
+        "url": null,
+        "url_status": "needs_source"
+      },
+      {
+        "organization": "National Iodine Deficiency Disorders Control Programme, Ministry of Health and Family Welfare, India",
+        "title": "NIDDCP (reviewer to locate current page)",
+        "url": null,
+        "url_status": "needs_source"
+      }
+    ],
+    "review": {
+      "status": "pending_review",
+      "reviewer": null,
+      "last_verified": null,
+      "notes": "AI-assisted draft from general public-health guidance. Needs clinician review and source-URL check before it can be marked verified."
+    },
+    "dates": {
+      "published": "2026-11-02",
+      "updated": "2026-11-02"
+    }
+  }
+]

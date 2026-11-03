@@ -1,0 +1,187 @@
+[
+  {
+    "id": "anaemia",
+    "name_en": "Anaemia",
+    "name_hi": "एनीमिया (खून की कमी)",
+    "name_aliases": [
+      "anemia",
+      "anaemia",
+      "एनीमिया",
+      "खून की कमी",
+      "khoon ki kami",
+      "low hemoglobin",
+      "low hb",
+      "hemoglobin kam"
+    ],
+    "category": "blood-nutrition",
+    "summary": "Anaemia means the blood has fewer red cells or less haemoglobin than normal, so the body gets less oxygen. It is very common in India, especially among women, adolescent girls, pregnant women and children. Iron deficiency is the commonest cause, but other causes exist and need to be identified.",
+    "symptoms": [
+      "Tiredness and weakness",
+      "Pale skin, eyes or nails",
+      "Dizziness",
+      "Breathlessness on exertion",
+      "Fast heartbeat",
+      "Headache",
+      "Hair fall",
+      "Cold hands and feet"
+    ],
+    "keywords": {
+      "en": [
+        "anaemia",
+        "anemia",
+        "low hemoglobin",
+        "low hb",
+        "tiredness",
+        "weakness",
+        "pale skin",
+        "dizziness",
+        "breathlessness",
+        "palpitations",
+        "hair fall"
+      ],
+      "hi": [
+        "एनीमिया",
+        "खून की कमी",
+        "थकान",
+        "कमजोरी",
+        "पीलापन",
+        "चक्कर आना",
+        "सांस फूलना",
+        "बाल झड़ना"
+      ],
+      "hinglish": [
+        "anemia",
+        "khoon ki kami",
+        "hemoglobin kam",
+        "low hb",
+        "kamzori",
+        "thakan",
+        "pilapan",
+        "chakkar aana",
+        "saans phulna",
+        "baal jhadna"
+      ]
+    },
+    "causes": [
+      "Iron deficiency from low dietary iron or blood loss (for example heavy periods)",
+      "Vitamin B12 or folate deficiency",
+      "Worm infection, chronic disease, or inherited conditions such as thalassaemia and sickle cell disease",
+      "Pregnancy increases the body's need for iron"
+    ],
+    "risk_factors": [
+      "Women of reproductive age, adolescent girls and pregnant women",
+      "Heavy menstrual bleeding",
+      "Diet low in iron, folate or vitamin B12",
+      "Chronic illness or long-term blood loss",
+      "Young children"
+    ],
+    "tests": [
+      {
+        "name": "Complete blood count (CBC) with red cell indices",
+        "type": "screening and diagnostic",
+        "purpose": "Measures haemoglobin and red cell size to detect and classify anaemia.",
+        "preparation": {
+          "fasting": "Not required.",
+          "other": "Preparation can differ between labs and between patients; follow the instructions of your doctor or lab."
+        },
+        "exceptions": null
+      },
+      {
+        "name": "Serum ferritin and iron studies",
+        "type": "diagnostic",
+        "purpose": "Checks whether iron deficiency is the cause.",
+        "preparation": {
+          "fasting": "Depends on the lab. Serum iron varies through the day and with recent iron intake, so the lab or doctor may give special instructions."
+        },
+        "exceptions": "Ferritin can look normal during infection or inflammation even when iron is low; the doctor interprets it with other results. Do not stop prescribed iron without asking the doctor."
+      },
+      {
+        "name": "Vitamin B12 and folate",
+        "type": "diagnostic (selected cases)",
+        "purpose": "Looks for B12 or folate deficiency.",
+        "preparation": {
+          "fasting": "Follow the lab's instruction."
+        },
+        "exceptions": "Recent supplements can affect results; tell the lab what you take."
+      },
+      {
+        "name": "Peripheral blood smear, haemoglobin electrophoresis/HPLC",
+        "type": "diagnostic (selected cases)",
+        "purpose": "Looks for inherited blood disorders and other causes.",
+        "preparation": {
+          "fasting": "Not required."
+        },
+        "exceptions": "Used when the cause is unclear, anaemia does not respond to treatment, or there is a family history."
+      }
+    ],
+    "specialist": {
+      "primary": "General Physician",
+      "also": [
+        "Gynaecologist/Obstetrician (heavy periods, pregnancy)",
+        "Haematologist (if referred)",
+        "Paediatrician (children)",
+        "Dietitian"
+      ]
+    },
+    "prevention": [
+      "Eat iron-rich foods such as pulses, green leafy vegetables, and (if non-vegetarian) eggs, fish or meat",
+      "Include vitamin C-rich foods (such as lemon, amla, citrus fruit) with meals to improve iron absorption",
+      "Avoid drinking tea or coffee with meals",
+      "Use government-provided iron-folic acid supplements only as advised by a health worker or doctor"
+    ],
+    "lifestyle": [
+      "Find and treat the cause; taking iron alone without a diagnosis is not advised",
+      "Regular check-ups during pregnancy and adolescence"
+    ],
+    "red_flags": [
+      "Breathlessness at rest, chest pain or fainting",
+      "Very fast heartbeat with severe weakness",
+      "Black stools, blood in stool or vomit",
+      "Very heavy periods soaking through pads quickly",
+      "Pregnancy with severe tiredness, breathlessness or swelling"
+    ],
+    "when_to_consult": [
+      "Persistent tiredness, pallor or breathlessness",
+      "Pregnant women and adolescent girls should have haemoglobin checked as part of routine care"
+    ],
+    "special_populations": [
+      "Pregnancy: anaemia raises risks for mother and baby; follow antenatal advice",
+      "Children: poor appetite, slow growth or frequent illness need paediatric review",
+      "Men and post-menopausal women with anaemia need the cause (such as hidden blood loss) checked"
+    ],
+    "faqs": [
+      {
+        "q": "Is low haemoglobin always because of low iron?",
+        "a": "No. B12 or folate deficiency, chronic disease and inherited conditions are also causes. Tests help find the reason."
+      },
+      {
+        "q": "Do I need to fast for a haemoglobin test?",
+        "a": "No for CBC. Some iron tests may have special instructions; follow your lab."
+      }
+    ],
+    "sources": [
+      {
+        "organization": "World Health Organization (WHO)",
+        "title": "Anaemia (fact sheet)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+        "url_status": "unchecked"
+      },
+      {
+        "organization": "Ministry of Health and Family Welfare, India",
+        "title": "Anemia Mukt Bharat programme guidelines (reviewer to locate current edition)",
+        "url": null,
+        "url_status": "needs_source"
+      }
+    ],
+    "review": {
+      "status": "pending_review",
+      "reviewer": null,
+      "last_verified": null,
+      "notes": "AI-assisted draft from general public-health guidance. Needs clinician review and source-URL check before it can be marked verified."
+    },
+    "dates": {
+      "published": "2026-11-02",
+      "updated": "2026-11-02"
+    }
+  }
+]

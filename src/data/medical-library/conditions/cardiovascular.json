@@ -1,0 +1,157 @@
+[
+  {
+    "id": "hypertension",
+    "name_en": "High blood pressure (Hypertension)",
+    "name_hi": "उच्च रक्तचाप",
+    "name_aliases": [
+      "hypertension",
+      "high bp",
+      "high blood pressure",
+      "bp high",
+      "bp",
+      "ब्लड प्रेशर",
+      "बीपी",
+      "बीपी हाई",
+      "bp ki problem"
+    ],
+    "category": "cardiovascular",
+    "summary": "Hypertension means the pressure of blood in the arteries stays high. It often causes no symptoms but raises the risk of heart attack, stroke, kidney disease and eye problems over time. It is diagnosed by repeated, correctly measured readings, not by one reading.",
+    "symptoms": [
+      "Often no symptoms",
+      "Headache",
+      "Dizziness",
+      "Palpitations",
+      "Very high readings can cause severe headache, chest pain, blurred vision or breathlessness"
+    ],
+    "keywords": {
+      "en": [
+        "hypertension",
+        "high blood pressure",
+        "high bp",
+        "bp",
+        "headache",
+        "dizziness",
+        "palpitations",
+        "blurred vision"
+      ],
+      "hi": [
+        "उच्च रक्तचाप",
+        "ब्लड प्रेशर",
+        "बीपी",
+        "सिर दर्द",
+        "चक्कर आना",
+        "धड़कन तेज"
+      ],
+      "hinglish": [
+        "high bp",
+        "bp high",
+        "bp badh gaya",
+        "blood pressure",
+        "sir dard",
+        "chakkar aana",
+        "dhadkan tez"
+      ]
+    },
+    "causes": [
+      "Often a combination of age, genetics, diet (high salt), weight and inactivity",
+      "Sometimes caused by kidney, hormonal or other conditions or by certain medicines"
+    ],
+    "risk_factors": [
+      "High salt intake",
+      "Overweight, low physical activity",
+      "Tobacco and excess alcohol",
+      "Family history",
+      "Diabetes, kidney disease",
+      "Age"
+    ],
+    "tests": [
+      {
+        "name": "Blood pressure measurement (clinic and/or home monitoring)",
+        "type": "screening and diagnostic",
+        "purpose": "Diagnosis is based on repeated readings on different occasions.",
+        "preparation": {
+          "fasting": "Not required.",
+          "other": "Sit and rest quietly for about 5 minutes, avoid caffeine, smoking and exercise for about 30 minutes before, use the correct cuff size and keep the arm at heart level."
+        },
+        "exceptions": "A single high reading can be due to stress, pain or rushing ('white-coat effect'); the doctor may advise home or 24-hour monitoring."
+      },
+      {
+        "name": "Baseline blood and urine tests (such as blood glucose, kidney function, cholesterol, urine test) and ECG",
+        "type": "diagnostic work-up",
+        "purpose": "Looks for causes and organ effects of high blood pressure.",
+        "preparation": {
+          "fasting": "Depends on the test (some cholesterol and glucose tests may need fasting). Follow the lab's instruction."
+        },
+        "exceptions": "Not every patient needs the same set of tests; the doctor chooses."
+      }
+    ],
+    "specialist": {
+      "primary": "General Physician",
+      "also": [
+        "Cardiologist",
+        "Nephrologist (if kidney involvement)",
+        "Obstetrician (hypertension in pregnancy)"
+      ]
+    },
+    "prevention": [
+      "Reduce salt (WHO advises less than 5 g of salt, about one teaspoon, per day)",
+      "Eat more vegetables, fruit and pulses",
+      "Be physically active regularly",
+      "Avoid tobacco; limit alcohol",
+      "Maintain a healthy weight"
+    ],
+    "lifestyle": [
+      "If medicines are prescribed, take them regularly and do not stop on your own even if you feel well",
+      "Keep a record of home readings for the doctor",
+      "Have regular check-ups"
+    ],
+    "red_flags": [
+      "Very high reading with severe headache, chest pain, breathlessness, confusion or vision change",
+      "Sudden weakness or numbness, face drooping or trouble speaking",
+      "In pregnancy: severe headache, visual disturbance, sudden swelling, or pain in the upper abdomen"
+    ],
+    "when_to_consult": [
+      "Readings that are repeatedly above the normal range",
+      "Adults should have their blood pressure checked regularly, even without symptoms"
+    ],
+    "special_populations": [
+      "Pregnancy: high blood pressure needs prompt obstetric care",
+      "Children can also have high blood pressure; use child-appropriate cuffs and see a paediatrician",
+      "Older adults need individualised targets set by the doctor"
+    ],
+    "faqs": [
+      {
+        "q": "I feel fine. Do I still need to treat high BP?",
+        "a": "Yes. High blood pressure usually has no symptoms but still causes damage over time."
+      },
+      {
+        "q": "Do I have to fast for a BP check?",
+        "a": "No. But rest, and avoid caffeine and smoking for about 30 minutes before the reading."
+      }
+    ],
+    "sources": [
+      {
+        "organization": "World Health Organization (WHO)",
+        "title": "Hypertension (fact sheet)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+        "url_status": "unchecked"
+      },
+      {
+        "organization": "Ministry of Health and Family Welfare, India",
+        "title": "India Hypertension Control Initiative / NPCDCS material (reviewer to locate)",
+        "url": null,
+        "url_status": "needs_source"
+      }
+    ],
+    "review": {
+      "status": "pending_review",
+      "reviewer": null,
+      "last_verified": null,
+      "notes": "AI-assisted draft from general public-health guidance. Needs clinician review and source-URL check before it can be marked verified."
+    },
+    "dates": {
+      "published": "2026-11-02",
+      "updated": "2026-11-02"
+    }
+  }
+]

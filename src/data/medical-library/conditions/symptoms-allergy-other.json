@@ -1,0 +1,148 @@
+[
+  {
+    "id": "fever",
+    "name_en": "Fever",
+    "name_hi": "बुखार",
+    "name_aliases": [
+      "fever",
+      "bukhar",
+      "jwar",
+      "tez bukhar",
+      "high fever"
+    ],
+    "category": "symptoms-allergy-other",
+    "summary": "Fever is a rise in body temperature, usually a sign that the body is fighting an infection or inflammation. It is a symptom, not a disease. Many different illnesses (including dengue, malaria, typhoid, flu, urinary and chest infections) can cause fever, so the cause must be found by a doctor.",
+    "symptoms": [
+      "Raised body temperature",
+      "Chills or shivering",
+      "Sweating",
+      "Body ache",
+      "Headache",
+      "Weakness"
+    ],
+    "keywords": {
+      "en": [
+        "fever",
+        "high fever",
+        "temperature",
+        "chills",
+        "body ache",
+        "headache",
+        "sweating"
+      ],
+      "hi": [
+        "बुखार",
+        "तेज बुखार",
+        "कंपकंपी",
+        "बदन दर्द",
+        "सिर दर्द",
+        "पसीना आना"
+      ],
+      "hinglish": [
+        "bukhar",
+        "tez bukhar",
+        "jwar",
+        "kapkapi",
+        "badan dard",
+        "sir dard",
+        "pasina aana"
+      ]
+    },
+    "causes": [
+      "Viral infections (flu, common viral fever)",
+      "Bacterial infections",
+      "Mosquito-borne infections such as dengue and malaria",
+      "Typhoid, urinary or chest infections",
+      "Non-infectious causes also exist"
+    ],
+    "risk_factors": [
+      "Infants and young children",
+      "Older adults",
+      "Pregnancy",
+      "Diabetes, kidney disease or other chronic illness, weak immunity",
+      "Mosquito exposure or recent travel"
+    ],
+    "tests": [
+      {
+        "name": "Tests chosen by the doctor according to your symptoms, duration and local disease patterns",
+        "type": "diagnostic",
+        "purpose": "Examples a doctor may choose from: CBC, malaria test, dengue test, typhoid blood culture, urine test, chest X-ray.",
+        "preparation": {
+          "fasting": "Usually not required for these tests.",
+          "other": "Preparation can differ between labs and between patients; follow the instructions of your doctor or lab."
+        },
+        "exceptions": "There is no single test set that every person with fever needs. Do not self-select antibiotics or antimalarials."
+      }
+    ],
+    "specialist": {
+      "primary": "General Physician",
+      "also": [
+        "Paediatrician (children)",
+        "Obstetrician (pregnancy)",
+        "Infectious Disease specialist (if referred)"
+      ]
+    },
+    "prevention": [
+      "Wash hands regularly and drink safe water",
+      "Protect against mosquito bites",
+      "Stay up to date with recommended vaccines"
+    ],
+    "lifestyle": [
+      "Rest and drink plenty of safe fluids as advised by the doctor",
+      "Avoid aspirin and ibuprofen-type painkillers unless a doctor specifically advises, especially when dengue is possible",
+      "Do not start antibiotics or other medicines on your own"
+    ],
+    "red_flags": [
+      "Fever in a baby under 3 months",
+      "Fever lasting more than about 3 days, or rising",
+      "Difficulty breathing, chest pain, confusion, stiff neck or seizures",
+      "Persistent vomiting, severe abdominal pain, or unable to drink",
+      "Rash, bleeding or very dark urine",
+      "Fever during pregnancy or in a person with a serious chronic illness"
+    ],
+    "when_to_consult": [
+      "Fever that persists for more than 2 to 3 days",
+      "Any fever with a red-flag sign",
+      "Fever in infants, pregnant women and older adults should be seen early"
+    ],
+    "special_populations": [
+      "Infants and children: see a paediatrician early",
+      "Pregnancy: do not wait; consult the doctor",
+      "Older adults may have a lower fever even with serious infection"
+    ],
+    "faqs": [
+      {
+        "q": "How much temperature is considered fever?",
+        "a": "Different thermometers and body sites give different readings. If you feel unwell with a raised temperature, ask a doctor how to interpret it."
+      },
+      {
+        "q": "Which test should I get for fever?",
+        "a": "It depends on your symptoms and how many days you have had fever. A doctor will decide."
+      }
+    ],
+    "sources": [
+      {
+        "organization": "ICMR",
+        "title": "Standard Treatment Workflows of India: fever-related workflows (reviewer to identify exact documents)",
+        "url": null,
+        "url_status": "needs_source"
+      },
+      {
+        "organization": "NCVBDC, Ministry of Health and Family Welfare, India",
+        "title": "Vector-borne disease guidance (reviewer to locate)",
+        "url": null,
+        "url_status": "needs_source"
+      }
+    ],
+    "review": {
+      "status": "pending_review",
+      "reviewer": null,
+      "last_verified": null,
+      "notes": "AI-assisted draft from general public-health guidance. Needs clinician review and source-URL check before it can be marked verified."
+    },
+    "dates": {
+      "published": "2026-11-02",
+      "updated": "2026-11-02"
+    }
+  }
+]

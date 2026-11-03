@@ -1,0 +1,167 @@
+[
+  {
+    "id": "pcos",
+    "name_en": "PCOS / PCOD",
+    "name_hi": "पीसीओएस / पीसीओडी",
+    "name_aliases": [
+      "pcos",
+      "pcod",
+      "polycystic ovary syndrome",
+      "polycystic ovarian disease",
+      "पीसीओडी",
+      "पीसीओएस"
+    ],
+    "category": "womens-health",
+    "summary": "PCOS (often called PCOD in India) is a common hormonal condition in women of reproductive age. It can cause irregular or missed periods, extra facial or body hair, acne, weight gain and difficulty in conceiving, and it is linked with higher risk of diabetes and cholesterol problems.",
+    "symptoms": [
+      "Irregular, infrequent or absent periods",
+      "Excess facial or body hair",
+      "Acne or oily skin",
+      "Scalp hair thinning",
+      "Weight gain",
+      "Difficulty getting pregnant",
+      "Dark, velvety skin patches (acanthosis)"
+    ],
+    "keywords": {
+      "en": [
+        "pcos",
+        "pcod",
+        "polycystic ovary",
+        "irregular periods",
+        "facial hair",
+        "hirsutism",
+        "acne",
+        "weight gain",
+        "hair fall",
+        "difficulty conceiving"
+      ],
+      "hi": [
+        "पीसीओडी",
+        "पीसीओएस",
+        "अनियमित पीरियड्स",
+        "पीरियड्स नहीं आना",
+        "चेहरे पर बाल",
+        "मुंहासे",
+        "वजन बढ़ना",
+        "बाल झड़ना"
+      ],
+      "hinglish": [
+        "pcod",
+        "pcos",
+        "periods irregular",
+        "periods nahi aana",
+        "periods late",
+        "chehre par baal",
+        "muhase",
+        "wajan badhna",
+        "baal jhadna",
+        "mahavari me gadbadi"
+      ]
+    },
+    "causes": [
+      "Exact cause is not fully known; insulin resistance, higher androgen (male-type) hormones and genetics all play a role."
+    ],
+    "risk_factors": [
+      "Family history of PCOS or type 2 diabetes",
+      "Overweight or obesity (though PCOS also occurs in lean women)",
+      "Insulin resistance"
+    ],
+    "tests": [
+      {
+        "name": "Pelvic ultrasound",
+        "type": "diagnostic (supportive)",
+        "purpose": "Looks at the ovaries and uterus.",
+        "preparation": {
+          "other": "Transabdominal scan usually needs a full bladder; transvaginal scan is used only for women who are sexually active or married and is done with an empty bladder, as the doctor or centre advises."
+        },
+        "exceptions": "In teenagers within about 8 years of first period, ultrasound is generally not used to diagnose PCOS. Many women have polycystic-looking ovaries without PCOS."
+      },
+      {
+        "name": "Hormone tests (for example total testosterone, LH/FSH, prolactin, TSH)",
+        "type": "diagnostic (to confirm and exclude other causes)",
+        "purpose": "Helps rule out other causes of irregular periods and measures male-type hormones.",
+        "preparation": {
+          "fasting": "Usually not required for these hormones.",
+          "cycle_timing": "Timing is decided by the doctor. Some tests are done in the early part of the cycle (often around days 2 to 5) when cycles are regular; with irregular or absent periods there is no fixed day.",
+          "other": "Preparation can differ between labs and between patients; follow the instructions of your doctor or lab."
+        },
+        "exceptions": "Hormonal pills and some medicines can change results; tell the doctor about everything you take."
+      },
+      {
+        "name": "Fasting glucose or OGTT, HbA1c and lipid profile",
+        "type": "screening (metabolic risk)",
+        "purpose": "Checks for diabetes risk and cholesterol, which are more common in PCOS.",
+        "preparation": {
+          "fasting": "Fasting is needed for some of these (such as fasting glucose, some lipid tests) and not for others (HbA1c). Follow the lab's instruction."
+        },
+        "exceptions": null
+      }
+    ],
+    "specialist": {
+      "primary": "Gynaecologist",
+      "also": [
+        "Endocrinologist",
+        "Dermatologist (acne, hair)",
+        "Dietitian"
+      ]
+    },
+    "prevention": [
+      "Maintaining a healthy weight and regular activity can reduce symptoms and long-term risk"
+    ],
+    "lifestyle": [
+      "Aim for regular physical activity as advised by your doctor",
+      "Choose whole grains, pulses, vegetables; limit sugary drinks and deep-fried foods",
+      "Track your periods and share the record with your doctor",
+      "Do not start hormonal tablets or supplements without medical advice"
+    ],
+    "red_flags": [
+      "No periods for 3 months or more (when not pregnant)",
+      "Very heavy bleeding, dizziness or severe pelvic pain",
+      "Rapidly increasing facial or body hair with voice deepening",
+      "Trying to conceive for 6 to 12 months without success"
+    ],
+    "when_to_consult": [
+      "Irregular or missed periods, or new acne and excess hair growth",
+      "Planning pregnancy with irregular cycles"
+    ],
+    "special_populations": [
+      "Adolescents: irregular periods can be normal in the first couple of years after menarche, but persistent problems should be assessed",
+      "Women planning pregnancy should consult a gynaecologist before starting treatment",
+      "Pregnancy tests may be needed before some investigations"
+    ],
+    "faqs": [
+      {
+        "q": "Is PCOD the same as PCOS?",
+        "a": "PCOD is the popular term in India. Doctors usually diagnose PCOS using symptoms, hormone tests and sometimes ultrasound."
+      },
+      {
+        "q": "Do all hormone tests have to be done on day 2 or 3?",
+        "a": "No. Timing depends on whether your cycles are regular and what your doctor is checking."
+      }
+    ],
+    "sources": [
+      {
+        "organization": "World Health Organization (WHO)",
+        "title": "Polycystic ovary syndrome (fact sheet)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome",
+        "url_status": "unchecked"
+      },
+      {
+        "organization": "ICMR / professional society guidance on PCOS",
+        "title": "Reviewer to identify current Indian guideline",
+        "url": null,
+        "url_status": "needs_source"
+      }
+    ],
+    "review": {
+      "status": "pending_review",
+      "reviewer": null,
+      "last_verified": null,
+      "notes": "AI-assisted draft from general public-health guidance. Needs clinician review and source-URL check before it can be marked verified."
+    },
+    "dates": {
+      "published": "2026-11-02",
+      "updated": "2026-11-02"
+    }
+  }
+]

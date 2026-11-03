@@ -1,0 +1,293 @@
+[
+  {
+    "id": "dengue",
+    "name_en": "Dengue",
+    "name_hi": "डेंगू",
+    "name_aliases": [
+      "dengue fever",
+      "डेंगू बुखार"
+    ],
+    "category": "infectious",
+    "summary": "Dengue is a viral infection spread by Aedes mosquito bites. Many people have mild illness, but some develop severe dengue, which can become dangerous around the time the fever settles.",
+    "symptoms": [
+      "Sudden high fever",
+      "Headache",
+      "Pain behind the eyes",
+      "Muscle, bone and joint pain",
+      "Nausea or vomiting",
+      "Skin rash",
+      "Tiredness"
+    ],
+    "keywords": {
+      "en": [
+        "dengue",
+        "high fever",
+        "body ache",
+        "joint pain",
+        "headache",
+        "skin rash",
+        "pain behind eyes",
+        "low platelets",
+        "platelet count",
+        "nausea vomiting"
+      ],
+      "hi": [
+        "डेंगू",
+        "तेज बुखार",
+        "बदन दर्द",
+        "जोड़ों में दर्द",
+        "सिर दर्द",
+        "आँखों के पीछे दर्द",
+        "प्लेटलेट्स कम",
+        "चकत्ते"
+      ],
+      "hinglish": [
+        "dengue",
+        "dengu",
+        "tez bukhar",
+        "haddi tod bukhar",
+        "platelets kam",
+        "platelet kam",
+        "aankhon ke peeche dard",
+        "jodon me dard",
+        "daane"
+      ]
+    },
+    "causes": [
+      "Dengue virus transmitted by Aedes aegypti / Aedes albopictus mosquitoes (they bite mainly during the day)."
+    ],
+    "risk_factors": [
+      "Living in or travelling to areas with dengue cases, especially in and after the monsoon",
+      "Stagnant clean water near home (coolers, containers, tyres)",
+      "Previous dengue infection (risk of severe dengue on a second infection)",
+      "Infants, older adults, pregnancy and people with other chronic illness may need closer monitoring"
+    ],
+    "tests": [
+      {
+        "name": "NS1 antigen test",
+        "type": "diagnostic",
+        "purpose": "Detects the virus early in the illness.",
+        "preparation": {
+          "fasting": "Not required.",
+          "other": "Most useful in the first few days of fever (roughly the first 5 days)."
+        },
+        "exceptions": "A negative early test does not rule out dengue; the doctor may repeat or use another test."
+      },
+      {
+        "name": "Dengue IgM/IgG antibody test",
+        "type": "diagnostic",
+        "purpose": "Detects the body's immune response.",
+        "preparation": {
+          "fasting": "Not required.",
+          "other": "Becomes useful later in the illness (roughly after day 5)."
+        },
+        "exceptions": "Antibodies can also reflect older infection; interpretation by a doctor is needed."
+      },
+      {
+        "name": "CBC with platelet count and haematocrit",
+        "type": "monitoring",
+        "purpose": "Helps the doctor monitor the illness; counts may be repeated.",
+        "preparation": {
+          "fasting": "Not required.",
+          "other": "Preparation can differ between labs and between patients; follow the instructions of your doctor or lab."
+        },
+        "exceptions": "Platelet count alone does not decide severity; the doctor looks at the whole clinical picture."
+      }
+    ],
+    "specialist": {
+      "primary": "General Physician / Internal Medicine",
+      "also": [
+        "Paediatrician (for children)",
+        "Infectious Disease specialist (if referred)"
+      ]
+    },
+    "prevention": [
+      "Remove or cover stagnant water; empty and dry coolers, pots and containers weekly",
+      "Use mosquito nets, repellents and full-sleeve clothing, including during the day",
+      "Keep windows screened where possible"
+    ],
+    "lifestyle": [
+      "Rest and drink plenty of safe fluids as advised by the doctor",
+      "Avoid aspirin and ibuprofen-type painkillers unless a doctor specifically advises them (bleeding risk)",
+      "Do not self-medicate; follow the doctor's monitoring schedule"
+    ],
+    "red_flags": [
+      "Severe or continuous abdominal pain",
+      "Persistent vomiting or unable to drink fluids",
+      "Bleeding from nose or gums, blood in vomit or black stools",
+      "Extreme weakness, drowsiness or restlessness",
+      "Cold, clammy skin, difficulty breathing, very little urine",
+      "These warning signs often appear when the fever is settling (about day 3 to 7) and need urgent hospital care"
+    ],
+    "when_to_consult": [
+      "Fever with body ache or rash in a dengue season or area: see a doctor early rather than waiting",
+      "Any warning sign above: go to hospital immediately"
+    ],
+    "special_populations": [
+      "Children and infants: see a paediatrician early",
+      "Pregnancy: consult a doctor promptly if dengue is suspected",
+      "Older adults and people with diabetes, heart or kidney disease need closer supervision"
+    ],
+    "faqs": [
+      {
+        "q": "Can a normal platelet count rule out dengue?",
+        "a": "No single test rules dengue in or out. Doctors combine symptoms, day of illness and test results."
+      },
+      {
+        "q": "Should I take papaya leaf juice or home remedies instead of seeing a doctor?",
+        "a": "No. Home remedies should not replace medical monitoring, because dengue can worsen suddenly."
+      }
+    ],
+    "sources": [
+      {
+        "organization": "World Health Organization (WHO)",
+        "title": "Dengue and severe dengue (fact sheet)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+        "url_status": "unchecked"
+      },
+      {
+        "organization": "NCVBDC, Ministry of Health and Family Welfare, India",
+        "title": "Dengue case management guidelines (reviewer to locate current edition)",
+        "url": null,
+        "url_status": "needs_source"
+      }
+    ],
+    "review": {
+      "status": "pending_review",
+      "reviewer": null,
+      "last_verified": null,
+      "notes": "AI-assisted draft from general public-health guidance. Needs clinician review and source-URL check before it can be marked verified."
+    },
+    "dates": {
+      "published": "2026-11-02",
+      "updated": "2026-11-02"
+    }
+  },
+  {
+    "id": "malaria",
+    "name_en": "Malaria",
+    "name_hi": "मलेरिया",
+    "name_aliases": [
+      "malaria fever"
+    ],
+    "category": "infectious",
+    "summary": "Malaria is a parasite infection spread by Anopheles mosquito bites. It causes fever that may come with chills and sweating. It needs a blood test and proper treatment; it can become severe if delayed.",
+    "symptoms": [
+      "Fever with chills and shivering",
+      "Sweating",
+      "Headache",
+      "Body ache",
+      "Nausea or vomiting",
+      "Tiredness"
+    ],
+    "keywords": {
+      "en": [
+        "malaria",
+        "fever with chills",
+        "chills",
+        "shivering",
+        "sweating",
+        "headache",
+        "body ache",
+        "nausea vomiting"
+      ],
+      "hi": [
+        "मलेरिया",
+        "कंपकंपी",
+        "ठंड लगना",
+        "पसीना आना",
+        "बुखार"
+      ],
+      "hinglish": [
+        "malaria",
+        "thand lagke bukhar",
+        "kapkapi",
+        "kapkapi ke saath bukhar",
+        "pasina aana",
+        "mosquito bite fever"
+      ]
+    },
+    "causes": [
+      "Plasmodium parasites passed on by infected Anopheles mosquitoes."
+    ],
+    "risk_factors": [
+      "Living in or travelling to areas with malaria",
+      "Stagnant water and poor mosquito protection",
+      "Pregnancy and young children are at higher risk of severe illness"
+    ],
+    "tests": [
+      {
+        "name": "Rapid diagnostic test (RDT) and/or blood smear microscopy",
+        "type": "diagnostic",
+        "purpose": "Confirms malaria and identifies the parasite type, which decides treatment.",
+        "preparation": {
+          "fasting": "Not required.",
+          "other": "Best done while symptoms are present and before antimalarial medicine is started."
+        },
+        "exceptions": "One negative test during fever does not always exclude malaria; the doctor may repeat it."
+      }
+    ],
+    "specialist": {
+      "primary": "General Physician",
+      "also": [
+        "Paediatrician (for children)",
+        "Infectious Disease specialist (if referred)"
+      ]
+    },
+    "prevention": [
+      "Sleep under insecticide-treated mosquito nets",
+      "Use repellents and cover arms and legs in the evening",
+      "Remove stagnant water around the home"
+    ],
+    "lifestyle": [
+      "Treatment depends on the parasite type, so do not take leftover or self-chosen medicines",
+      "Drink fluids and rest as the doctor advises"
+    ],
+    "red_flags": [
+      "Confusion, extreme drowsiness or seizures",
+      "Difficulty breathing",
+      "Yellow eyes or skin, or very dark urine",
+      "Persistent vomiting or unable to drink",
+      "Unusual bleeding",
+      "Pregnancy with fever in a malaria area"
+    ],
+    "when_to_consult": [
+      "Any fever with chills, especially after mosquito exposure or travel, should be tested",
+      "Red-flag signs need emergency care"
+    ],
+    "special_populations": [
+      "Pregnancy and children: seek medical care without delay",
+      "Travellers returning from malaria areas should mention travel history to the doctor"
+    ],
+    "faqs": [
+      {
+        "q": "Is fever with chills always malaria?",
+        "a": "No. Several infections can cause this pattern; a blood test is needed to know."
+      }
+    ],
+    "sources": [
+      {
+        "organization": "World Health Organization (WHO)",
+        "title": "Malaria (fact sheet)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+        "url_status": "seen_in_search"
+      },
+      {
+        "organization": "NCVBDC, Ministry of Health and Family Welfare, India",
+        "title": "Malaria diagnosis and treatment guidelines (reviewer to locate current edition)",
+        "url": null,
+        "url_status": "needs_source"
+      }
+    ],
+    "review": {
+      "status": "pending_review",
+      "reviewer": null,
+      "last_verified": null,
+      "notes": "AI-assisted draft from general public-health guidance. Needs clinician review and source-URL check before it can be marked verified."
+    },
+    "dates": {
+      "published": "2026-11-02",
+      "updated": "2026-11-02"
+    }
+  }
+]

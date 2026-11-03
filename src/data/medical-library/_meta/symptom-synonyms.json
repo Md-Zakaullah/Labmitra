@@ -1,0 +1,229 @@
+{
+  "_note": "Phrases in one group are treated as the SAME symptom (de-duplication across Hindi/English/Hinglish). Add new spellings here, not in every record.",
+  "fever": [
+    "fever",
+    "bukhar",
+    "jwar",
+    "temperature",
+    "tez bukhar",
+    "high fever",
+    "bukhar aana",
+    "बुखार",
+    "ज्वर",
+    "तेज बुखार",
+    "तापमान"
+  ],
+  "chills": [
+    "chills",
+    "shivering",
+    "kapkapi",
+    "thand lagna",
+    "thand ke saath bukhar",
+    "कंपकंपी",
+    "ठंड लगना"
+  ],
+  "body_ache": [
+    "body ache",
+    "body pain",
+    "badan dard",
+    "badan me dard",
+    "haddi tod bukhar",
+    "बदन दर्द",
+    "शरीर में दर्द",
+    "हड्डी तोड़ बुखार"
+  ],
+  "headache": [
+    "headache",
+    "sir dard",
+    "sar dard",
+    "sir me dard",
+    "सिर दर्द",
+    "सिरदर्द"
+  ],
+  "joint_pain": [
+    "joint pain",
+    "jodon me dard",
+    "jodo me dard",
+    "जोड़ों में दर्द"
+  ],
+  "fatigue": [
+    "fatigue",
+    "tiredness",
+    "weakness",
+    "thakan",
+    "kamzori",
+    "thakaan",
+    "थकान",
+    "कमजोरी"
+  ],
+  "weight_gain": [
+    "weight gain",
+    "wajan badhna",
+    "vajan badhna",
+    "motapa badhna",
+    "वजन बढ़ना"
+  ],
+  "weight_loss": [
+    "weight loss",
+    "wajan kam hona",
+    "vajan kam hona",
+    "वजन घटना",
+    "वजन कम होना"
+  ],
+  "hair_fall": [
+    "hair fall",
+    "hair loss",
+    "baal jhadna",
+    "baal girna",
+    "बाल झड़ना",
+    "बाल गिरना"
+  ],
+  "irregular_periods": [
+    "irregular periods",
+    "periods irregular",
+    "periods late",
+    "periods nahi aana",
+    "missed periods",
+    "अनियमित पीरियड्स",
+    "पीरियड्स नहीं आना",
+    "mahavari me gadbadi"
+  ],
+  "facial_hair": [
+    "facial hair",
+    "hirsutism",
+    "chehre par baal",
+    "चेहरे पर बाल"
+  ],
+  "acne": [
+    "acne",
+    "pimples",
+    "muhase",
+    "मुंहासे",
+    "पिंपल्स"
+  ],
+  "excess_thirst": [
+    "excessive thirst",
+    "zyada pyaas",
+    "jyada pyas",
+    "bahut pyaas lagna",
+    "ज्यादा प्यास",
+    "बहुत प्यास लगना"
+  ],
+  "frequent_urination": [
+    "frequent urination",
+    "baar baar peshab",
+    "bar bar peshab",
+    "bar bar susu",
+    "बार बार पेशाब"
+  ],
+  "blurred_vision": [
+    "blurred vision",
+    "dhundhla dikhna",
+    "धुंधला दिखना"
+  ],
+  "breathlessness": [
+    "breathlessness",
+    "shortness of breath",
+    "saans phulna",
+    "saans ki takleef",
+    "saans lene me dikkat",
+    "सांस फूलना",
+    "सांस लेने में तकलीफ"
+  ],
+  "wheezing": [
+    "wheezing",
+    "seeti jaisi awaaz",
+    "saans me sitti",
+    "सांस में सीटी"
+  ],
+  "cough": [
+    "cough",
+    "khansi",
+    "khaansi",
+    "खांसी",
+    "खाँसी"
+  ],
+  "chest_tightness": [
+    "chest tightness",
+    "seene me jakdan",
+    "सीने में जकड़न"
+  ],
+  "palpitations": [
+    "palpitations",
+    "heart racing",
+    "dil ki dhadkan tez",
+    "dhadkan tez",
+    "धड़कन तेज"
+  ],
+  "dizziness": [
+    "dizziness",
+    "chakkar aana",
+    "sir ghumna",
+    "चक्कर आना"
+  ],
+  "pallor": [
+    "pale skin",
+    "pallor",
+    "pilapan",
+    "chehra peela",
+    "पीलापन"
+  ],
+  "neck_swelling": [
+    "neck swelling",
+    "swelling in neck",
+    "gala sujna",
+    "gale me sujan",
+    "ghengha",
+    "goitre",
+    "goiter",
+    "गला सूजना",
+    "गले में सूजन",
+    "घेंघा"
+  ],
+  "cold_intolerance": [
+    "cold intolerance",
+    "thand zyada lagna",
+    "ठंड ज्यादा लगना"
+  ],
+  "heat_intolerance": [
+    "heat intolerance",
+    "garmi zyada lagna",
+    "गर्मी ज्यादा लगना"
+  ],
+  "nausea_vomiting": [
+    "vomiting",
+    "nausea",
+    "ulti",
+    "ji michlana",
+    "उल्टी",
+    "जी मिचलाना"
+  ],
+  "abdominal_pain": [
+    "stomach pain",
+    "abdominal pain",
+    "pet dard",
+    "pet me dard",
+    "पेट दर्द",
+    "पेट में दर्द"
+  ],
+  "skin_rash": [
+    "skin rash",
+    "rash",
+    "daane",
+    "chakatte",
+    "दाने",
+    "चकत्ते"
+  ],
+  "retro_orbital_pain": [
+    "pain behind eyes",
+    "aankhon ke peeche dard",
+    "आँखों के पीछे दर्द",
+    "आंखों के पीछे दर्द"
+  ],
+  "sweating": [
+    "sweating",
+    "night sweats",
+    "pasina aana",
+    "पसीना आना"
+  ]
+}

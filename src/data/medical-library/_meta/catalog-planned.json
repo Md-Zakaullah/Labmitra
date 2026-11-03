@@ -1,0 +1,1081 @@
+{
+ "_note": "BACKLOG ONLY. These topics are not authored or reviewed. They exist so the assistant can say 'information for this topic is not available yet' instead of guessing. Names/Hindi translations still need review. Add a full record under conditions/<category>.json to promote a topic; its entry is then ignored here automatically.",
+ "topics": [
+  {
+   "id": "endometriosis",
+   "en": "Endometriosis",
+   "hi": "एंडोमेट्रियोसिस",
+   "cat": "womens-health",
+   "priority": 1,
+   "kw": [
+    "endometriosis",
+    "endometriosis problem",
+    "एंडोमेट्रियोसिस"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "uterine-fibroids",
+   "en": "Uterine fibroids",
+   "hi": "गर्भाशय में रसौली (फाइब्रॉइड)",
+   "cat": "womens-health",
+   "priority": 1,
+   "kw": [
+    "fibroid",
+    "fibroids",
+    "uterine fibroid",
+    "rasauli",
+    "bachchedani me rasauli",
+    "रसौली",
+    "फाइब्रॉइड"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "ovarian-cyst",
+   "en": "Ovarian cyst",
+   "hi": "अंडाशय की सिस्ट",
+   "cat": "womens-health",
+   "priority": 1,
+   "kw": [
+    "ovarian cyst",
+    "ovary cyst",
+    "cyst in ovary",
+    "ovary me cyst",
+    "अंडाशय में सिस्ट"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "infertility",
+   "en": "Infertility",
+   "hi": "बांझपन",
+   "cat": "womens-health",
+   "priority": 1,
+   "kw": [
+    "infertility",
+    "unable to conceive",
+    "pregnancy nahi ho rahi",
+    "bachcha nahi ho raha",
+    "बांझपन"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "menopause",
+   "en": "Menopause",
+   "hi": "रजोनिवृत्ति",
+   "cat": "womens-health",
+   "priority": 2,
+   "kw": [
+    "menopause",
+    "periods band hona",
+    "मेनोपॉज",
+    "रजोनिवृत्ति"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "insulin-resistance",
+   "en": "Insulin resistance",
+   "hi": "इंसुलिन प्रतिरोध",
+   "cat": "endocrine",
+   "priority": 1,
+   "kw": [
+    "insulin resistance",
+    "prediabetes",
+    "pre diabetes",
+    "प्रीडायबिटीज"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "vitamin-d-deficiency",
+   "en": "Vitamin D deficiency",
+   "hi": "विटामिन डी की कमी",
+   "cat": "blood-nutrition",
+   "priority": 1,
+   "kw": [
+    "vitamin d deficiency",
+    "vitamin d kam",
+    "low vitamin d",
+    "विटामिन डी की कमी"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "vitamin-b12-deficiency",
+   "en": "Vitamin B12 deficiency",
+   "hi": "विटामिन बी12 की कमी",
+   "cat": "blood-nutrition",
+   "priority": 1,
+   "kw": [
+    "vitamin b12 deficiency",
+    "b12 kam",
+    "low b12",
+    "विटामिन बी12 की कमी"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "thalassemia",
+   "en": "Thalassaemia",
+   "hi": "थैलेसीमिया",
+   "cat": "blood-nutrition",
+   "priority": 3,
+   "kw": [
+    "thalassemia",
+    "thalassaemia",
+    "थैलेसीमिया"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "sickle-cell-disease",
+   "en": "Sickle cell disease",
+   "hi": "सिकल सेल रोग",
+   "cat": "blood-nutrition",
+   "priority": 3,
+   "kw": [
+    "sickle cell",
+    "sickle cell anemia",
+    "सिकल सेल"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "obesity",
+   "en": "Obesity / overweight",
+   "hi": "मोटापा",
+   "cat": "endocrine",
+   "priority": 2,
+   "kw": [
+    "obesity",
+    "overweight",
+    "motapa",
+    "मोटापा"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "high-cholesterol",
+   "en": "High cholesterol",
+   "hi": "कोलेस्ट्रॉल बढ़ना",
+   "cat": "cardiovascular",
+   "priority": 1,
+   "kw": [
+    "high cholesterol",
+    "cholesterol badh gaya",
+    "कोलेस्ट्रॉल"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "heart-disease",
+   "en": "Coronary heart disease",
+   "hi": "हृदय रोग",
+   "cat": "cardiovascular",
+   "priority": 1,
+   "kw": [
+    "heart disease",
+    "heart problem",
+    "dil ki bimari",
+    "दिल की बीमारी",
+    "हृदय रोग"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "heart-failure",
+   "en": "Heart failure",
+   "hi": "हृदय की विफलता",
+   "cat": "cardiovascular",
+   "priority": 2,
+   "kw": [
+    "heart failure",
+    "dil ki kamzori",
+    "हृदय गति रुकना"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "stroke",
+   "en": "Stroke",
+   "hi": "स्ट्रोक / लकवा",
+   "cat": "neurological",
+   "priority": 1,
+   "kw": [
+    "stroke",
+    "paralysis",
+    "lakwa",
+    "लकवा",
+    "स्ट्रोक"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "typhoid",
+   "en": "Typhoid",
+   "hi": "टाइफाइड",
+   "cat": "infectious",
+   "priority": 1,
+   "kw": [
+    "typhoid",
+    "enteric fever",
+    "motijhara",
+    "टाइफाइड",
+    "मियादी बुखार"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "tuberculosis",
+   "en": "Tuberculosis (TB)",
+   "hi": "क्षय रोग (टीबी)",
+   "cat": "infectious",
+   "priority": 1,
+   "kw": [
+    "tuberculosis",
+    "tb",
+    "tb ki bimari",
+    "kshay rog",
+    "टीबी",
+    "क्षय रोग"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "covid-19",
+   "en": "COVID-19",
+   "hi": "कोविड-19",
+   "cat": "infectious",
+   "priority": 1,
+   "kw": [
+    "covid",
+    "covid 19",
+    "corona",
+    "coronavirus",
+    "कोविड",
+    "कोरोना"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "chikungunya",
+   "en": "Chikungunya",
+   "hi": "चिकनगुनिया",
+   "cat": "infectious",
+   "priority": 2,
+   "kw": [
+    "chikungunya",
+    "chikungunia",
+    "चिकनगुनिया"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "hepatitis",
+   "en": "Hepatitis (A, B, C, E)",
+   "hi": "हेपेटाइटिस",
+   "cat": "digestive-liver",
+   "priority": 1,
+   "kw": [
+    "hepatitis",
+    "hepatitis b",
+    "hepatitis a",
+    "jaundice",
+    "peelia",
+    "पीलिया",
+    "हेपेटाइटिस"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cholera-diarrhoea",
+   "en": "Diarrhoea and cholera",
+   "hi": "दस्त और हैजा",
+   "cat": "infectious",
+   "priority": 2,
+   "kw": [
+    "diarrhoea",
+    "diarrhea",
+    "loose motion",
+    "dast",
+    "haija",
+    "दस्त",
+    "हैजा"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "chickenpox",
+   "en": "Chickenpox",
+   "hi": "चेचक (छोटी माता)",
+   "cat": "infectious",
+   "priority": 3,
+   "kw": [
+    "chickenpox",
+    "chicken pox",
+    "chhoti mata",
+    "छोटी माता"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "measles",
+   "en": "Measles",
+   "hi": "खसरा",
+   "cat": "child-adolescent",
+   "priority": 2,
+   "kw": [
+    "measles",
+    "khasra",
+    "खसरा"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "copd",
+   "en": "COPD",
+   "hi": "सीओपीडी",
+   "cat": "respiratory",
+   "priority": 1,
+   "kw": [
+    "copd",
+    "chronic bronchitis",
+    "sulfar",
+    "सीओपीडी"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "pneumonia",
+   "en": "Pneumonia",
+   "hi": "निमोनिया",
+   "cat": "respiratory",
+   "priority": 1,
+   "kw": [
+    "pneumonia",
+    "nimonia",
+    "निमोनिया"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "allergic-rhinitis",
+   "en": "Allergic rhinitis",
+   "hi": "एलर्जिक राइनाइटिस",
+   "cat": "ent",
+   "priority": 2,
+   "kw": [
+    "allergic rhinitis",
+    "dust allergy",
+    "chheenk",
+    "zukam allergy",
+    "सर्दी एलर्जी"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "gerd",
+   "en": "GERD / acid reflux",
+   "hi": "एसिड रिफ्लक्स",
+   "cat": "digestive-liver",
+   "priority": 1,
+   "kw": [
+    "gerd",
+    "acid reflux",
+    "acidity",
+    "seene me jalan",
+    "एसिडिटी",
+    "सीने में जलन"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "ibs",
+   "en": "Irritable bowel syndrome",
+   "hi": "इरिटेबल बाउल सिंड्रोम",
+   "cat": "digestive-liver",
+   "priority": 2,
+   "kw": [
+    "ibs",
+    "irritable bowel",
+    "पेट की समस्या"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "fatty-liver",
+   "en": "Fatty liver",
+   "hi": "फैटी लिवर",
+   "cat": "digestive-liver",
+   "priority": 1,
+   "kw": [
+    "fatty liver",
+    "liver me charbi",
+    "फैटी लिवर"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "gallstones",
+   "en": "Gallstones",
+   "hi": "पित्त की पथरी",
+   "cat": "digestive-liver",
+   "priority": 2,
+   "kw": [
+    "gallstone",
+    "gallstones",
+    "pitte ki pathri",
+    "पित्त की पथरी"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "piles",
+   "en": "Piles (haemorrhoids)",
+   "hi": "बवासीर",
+   "cat": "digestive-liver",
+   "priority": 2,
+   "kw": [
+    "piles",
+    "bawasir",
+    "haemorrhoids",
+    "बवासीर"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "constipation",
+   "en": "Constipation",
+   "hi": "कब्ज",
+   "cat": "digestive-liver",
+   "priority": 2,
+   "kw": [
+    "constipation",
+    "kabz",
+    "कब्ज"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "kidney-stones",
+   "en": "Kidney stones",
+   "hi": "किडनी की पथरी",
+   "cat": "kidney-urinary",
+   "priority": 1,
+   "kw": [
+    "kidney stone",
+    "kidney stones",
+    "pathri",
+    "गुर्दे की पथरी",
+    "किडनी स्टोन"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "ckd",
+   "en": "Chronic kidney disease",
+   "hi": "क्रॉनिक किडनी रोग",
+   "cat": "kidney-urinary",
+   "priority": 1,
+   "kw": [
+    "ckd",
+    "kidney failure",
+    "kidney disease",
+    "kidney kharab",
+    "किडनी फेल"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "uti",
+   "en": "Urinary tract infection",
+   "hi": "मूत्र मार्ग संक्रमण",
+   "cat": "kidney-urinary",
+   "priority": 1,
+   "kw": [
+    "uti",
+    "urine infection",
+    "peshab me jalan",
+    "पेशाब में जलन",
+    "यूटीआई"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "migraine",
+   "en": "Migraine",
+   "hi": "माइग्रेन",
+   "cat": "neurological",
+   "priority": 1,
+   "kw": [
+    "migraine",
+    "aadhe sir ka dard",
+    "माइग्रेन",
+    "आधे सिर का दर्द"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "epilepsy",
+   "en": "Epilepsy",
+   "hi": "मिर्गी",
+   "cat": "neurological",
+   "priority": 1,
+   "kw": [
+    "epilepsy",
+    "mirgi",
+    "मिर्गी"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "vertigo",
+   "en": "Vertigo",
+   "hi": "चक्कर (वर्टिगो)",
+   "cat": "neurological",
+   "priority": 2,
+   "kw": [
+    "vertigo",
+    "chakkar",
+    "चक्कर"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "depression",
+   "en": "Depression",
+   "hi": "अवसाद (डिप्रेशन)",
+   "cat": "mental-health",
+   "priority": 1,
+   "kw": [
+    "depression",
+    "udaasi",
+    "dipression",
+    "अवसाद",
+    "डिप्रेशन"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "anxiety",
+   "en": "Anxiety",
+   "hi": "चिंता (एंग्ज़ायटी)",
+   "cat": "mental-health",
+   "priority": 1,
+   "kw": [
+    "anxiety",
+    "ghabrahat",
+    "chinta",
+    "घबराहट",
+    "एंग्जायटी"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "insomnia",
+   "en": "Insomnia",
+   "hi": "अनिद्रा",
+   "cat": "mental-health",
+   "priority": 2,
+   "kw": [
+    "insomnia",
+    "neend nahi aana",
+    "अनिद्रा",
+    "नींद नहीं आना"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "acne",
+   "en": "Acne",
+   "hi": "मुंहासे",
+   "cat": "skin-hair",
+   "priority": 1,
+   "kw": [
+    "acne vulgaris",
+    "pimples problem",
+    "muhase",
+    "मुंहासे"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "eczema",
+   "en": "Eczema",
+   "hi": "एक्ज़िमा",
+   "cat": "skin-hair",
+   "priority": 2,
+   "kw": [
+    "eczema",
+    "dermatitis",
+    "एक्जिमा"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "psoriasis",
+   "en": "Psoriasis",
+   "hi": "सोरायसिस",
+   "cat": "skin-hair",
+   "priority": 2,
+   "kw": [
+    "psoriasis",
+    "soriasis",
+    "सोरायसिस"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "fungal-skin-infection",
+   "en": "Fungal skin infection (ringworm)",
+   "hi": "दाद, खाज",
+   "cat": "skin-hair",
+   "priority": 2,
+   "kw": [
+    "ringworm",
+    "daad",
+    "fungal infection",
+    "दाद",
+    "फंगल इन्फेक्शन"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "scabies",
+   "en": "Scabies",
+   "hi": "खुजली (स्कैबीज़)",
+   "cat": "skin-hair",
+   "priority": 3,
+   "kw": [
+    "scabies",
+    "khujli",
+    "खुजली"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "hair-loss",
+   "en": "Hair loss (alopecia)",
+   "hi": "बाल झड़ना (गंजापन)",
+   "cat": "skin-hair",
+   "priority": 2,
+   "kw": [
+    "alopecia",
+    "hair loss problem",
+    "ganjapan",
+    "गंजापन"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "arthritis",
+   "en": "Arthritis",
+   "hi": "गठिया",
+   "cat": "bone-joint-muscle",
+   "priority": 1,
+   "kw": [
+    "arthritis",
+    "gathiya",
+    "joint arthritis",
+    "गठिया"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "osteoporosis",
+   "en": "Osteoporosis",
+   "hi": "हड्डियों की कमजोरी",
+   "cat": "bone-joint-muscle",
+   "priority": 1,
+   "kw": [
+    "osteoporosis",
+    "haddi kamzor",
+    "हड्डियां कमजोर"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "back-pain",
+   "en": "Low back pain",
+   "hi": "कमर दर्द",
+   "cat": "bone-joint-muscle",
+   "priority": 1,
+   "kw": [
+    "back pain",
+    "low back pain",
+    "kamar dard",
+    "कमर दर्द"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "gout",
+   "en": "Gout / high uric acid",
+   "hi": "गाउट / यूरिक एसिड",
+   "cat": "bone-joint-muscle",
+   "priority": 2,
+   "kw": [
+    "gout",
+    "uric acid",
+    "यूरिक एसिड"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cataract",
+   "en": "Cataract",
+   "hi": "मोतियाबिंद",
+   "cat": "eye",
+   "priority": 1,
+   "kw": [
+    "cataract",
+    "motiyabind",
+    "मोतियाबिंद"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "conjunctivitis",
+   "en": "Conjunctivitis (red eye)",
+   "hi": "आँख आना",
+   "cat": "eye",
+   "priority": 2,
+   "kw": [
+    "conjunctivitis",
+    "red eye",
+    "aankh aana",
+    "आंख आना"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "refractive-error",
+   "en": "Refractive error (spectacle power)",
+   "hi": "चश्मे का नंबर",
+   "cat": "eye",
+   "priority": 2,
+   "kw": [
+    "refractive error",
+    "chashme ka number",
+    "चश्मा"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "sinusitis",
+   "en": "Sinusitis",
+   "hi": "साइनस",
+   "cat": "ent",
+   "priority": 2,
+   "kw": [
+    "sinusitis",
+    "sinus",
+    "साइनस"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "tonsillitis",
+   "en": "Tonsillitis / sore throat",
+   "hi": "टॉन्सिल / गले में दर्द",
+   "cat": "ent",
+   "priority": 2,
+   "kw": [
+    "tonsillitis",
+    "sore throat",
+    "gale me dard",
+    "गले में दर्द"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "ear-infection",
+   "en": "Ear infection",
+   "hi": "कान का संक्रमण",
+   "cat": "ent",
+   "priority": 2,
+   "kw": [
+    "ear infection",
+    "kaan me dard",
+    "कान दर्द"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "dental-caries",
+   "en": "Tooth decay (cavities)",
+   "hi": "दाँत सड़ना",
+   "cat": "dental-oral",
+   "priority": 1,
+   "kw": [
+    "dental caries",
+    "tooth decay",
+    "cavity",
+    "daant me keede",
+    "दांत दर्द",
+    "दांत में कीड़ा"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "gum-disease",
+   "en": "Gum disease",
+   "hi": "मसूड़ों की बीमारी",
+   "cat": "dental-oral",
+   "priority": 2,
+   "kw": [
+    "gum disease",
+    "gingivitis",
+    "masude se khoon",
+    "मसूड़ों से खून"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "breast-cancer",
+   "en": "Breast cancer",
+   "hi": "स्तन कैंसर",
+   "cat": "cancer",
+   "priority": 1,
+   "kw": [
+    "breast cancer",
+    "breast lump",
+    "stan me ganth",
+    "स्तन कैंसर"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cervical-cancer",
+   "en": "Cervical cancer",
+   "hi": "गर्भाशय ग्रीवा का कैंसर",
+   "cat": "cancer",
+   "priority": 1,
+   "kw": [
+    "cervical cancer",
+    "hpv",
+    "बच्चेदानी का कैंसर"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "oral-cancer",
+   "en": "Oral cancer",
+   "hi": "मुँह का कैंसर",
+   "cat": "cancer",
+   "priority": 1,
+   "kw": [
+    "oral cancer",
+    "mouth cancer",
+    "muh ka cancer",
+    "मुंह का कैंसर"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "lung-cancer",
+   "en": "Lung cancer",
+   "hi": "फेफड़ों का कैंसर",
+   "cat": "cancer",
+   "priority": 2,
+   "kw": [
+    "lung cancer",
+    "fefdon ka cancer",
+    "फेफड़ों का कैंसर"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "bph",
+   "en": "Enlarged prostate (BPH)",
+   "hi": "प्रोस्टेट का बढ़ना",
+   "cat": "mens-health",
+   "priority": 2,
+   "kw": [
+    "bph",
+    "prostate",
+    "prostate enlargement",
+    "प्रोस्टेट"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "male-infertility",
+   "en": "Male infertility",
+   "hi": "पुरुष बांझपन",
+   "cat": "mens-health",
+   "priority": 3,
+   "kw": [
+    "male infertility",
+    "low sperm count",
+    "शुक्राणु कम"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "gestational-diabetes",
+   "en": "Gestational diabetes",
+   "hi": "गर्भावस्था में डायबिटीज",
+   "cat": "pregnancy",
+   "priority": 1,
+   "kw": [
+    "gestational diabetes",
+    "pregnancy me sugar",
+    "गर्भावस्था में शुगर"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "preeclampsia",
+   "en": "Pre-eclampsia",
+   "hi": "गर्भावस्था में उच्च रक्तचाप",
+   "cat": "pregnancy",
+   "priority": 1,
+   "kw": [
+    "preeclampsia",
+    "pre eclampsia",
+    "pregnancy me bp",
+    "गर्भावस्था में बीपी"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "morning-sickness",
+   "en": "Nausea and vomiting in pregnancy",
+   "hi": "गर्भावस्था में उल्टी",
+   "cat": "pregnancy",
+   "priority": 2,
+   "kw": [
+    "morning sickness",
+    "pregnancy vomiting",
+    "pregnancy me ulti"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "childhood-diarrhoea",
+   "en": "Diarrhoea in children",
+   "hi": "बच्चों में दस्त",
+   "cat": "child-adolescent",
+   "priority": 1,
+   "kw": [
+    "child diarrhoea",
+    "bachche ko dast",
+    "बच्चे को दस्त"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "childhood-malnutrition",
+   "en": "Child malnutrition",
+   "hi": "बच्चों में कुपोषण",
+   "cat": "child-adolescent",
+   "priority": 2,
+   "kw": [
+    "malnutrition",
+    "kuposhan",
+    "कुपोषण"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "food-allergy",
+   "en": "Food allergy",
+   "hi": "खाने से एलर्जी",
+   "cat": "symptoms-allergy-other",
+   "priority": 2,
+   "kw": [
+    "food allergy",
+    "khane se allergy",
+    "खाने से एलर्जी"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "skin-allergy-hives",
+   "en": "Hives (urticaria)",
+   "hi": "पित्ती / एलर्जी के चकत्ते",
+   "cat": "symptoms-allergy-other",
+   "priority": 2,
+   "kw": [
+    "hives",
+    "urticaria",
+    "pitti",
+    "पित्ती"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "cough",
+   "en": "Cough",
+   "hi": "खांसी",
+   "cat": "symptoms-allergy-other",
+   "priority": 1,
+   "kw": [
+    "cough symptom",
+    "khansi",
+    "khaansi",
+    "खांसी"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "common-cold",
+   "en": "Common cold",
+   "hi": "सर्दी-जुकाम",
+   "cat": "symptoms-allergy-other",
+   "priority": 1,
+   "kw": [
+    "common cold",
+    "cold and flu",
+    "zukam",
+    "sardi jukam",
+    "सर्दी जुकाम"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "headache",
+   "en": "Headache",
+   "hi": "सिरदर्द",
+   "cat": "symptoms-allergy-other",
+   "priority": 1,
+   "kw": [
+    "headache symptom",
+    "sir dard",
+    "सिर दर्द"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "abdominal-pain",
+   "en": "Abdominal pain",
+   "hi": "पेट दर्द",
+   "cat": "symptoms-allergy-other",
+   "priority": 1,
+   "kw": [
+    "stomach pain",
+    "pet dard",
+    "पेट दर्द"
+   ],
+   "status": "planned"
+  },
+  {
+   "id": "fatigue",
+   "en": "Persistent tiredness",
+   "hi": "लगातार थकान",
+   "cat": "symptoms-allergy-other",
+   "priority": 1,
+   "kw": [
+    "persistent tiredness",
+    "chronic fatigue",
+    "hamesha thakan",
+    "लगातार थकान"
+   ],
+   "status": "planned"
+  }
+ ]
+}

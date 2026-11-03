@@ -31,11 +31,17 @@ const MAX_BODY_BYTES = 4096;
 const MAX_MESSAGE_CHARS = 500;
 const AI_TIMEOUT_MS = 12_000;
 
-// Set MEDICAL_ALLOW_UNREVIEWED=true ONLY for local/Preview testing.
-// In production leave it unset: records that are not "verified" are then never shown.
-const ALLOW_UNREVIEWED = ["true", "1", "yes"].includes(
-  String(process.env.MEDICAL_ALLOW_UNREVIEWED ?? "").trim().toLowerCase()
-);
+// Should records that are not doctor-verified be shown (always with a "review pending" banner)?
+// Priority: env var MEDICAL_ALLOW_UNREVIEWED (true/false) > _meta/runtime-config.json > off.
+function unreviewedPolicy() {
+  const env = String(process.env.MEDICAL_ALLOW_UNREVIEWED ?? "").trim().toLowerCase();
+  if (["true", "1", "yes"].includes(env)) return { allow: true, source: "env" };
+  if (["false", "0", "no"].includes(env)) return { allow: false, source: "env" };
+  try {
+    if (loadLibrary().config?.allow_unreviewed_content === true) return { allow: true, source: "config_file" };
+  } catch {}
+  return { allow: false, source: "default_off" };
+}
 
 const baseResponse = (over) => ({
   response: "",
@@ -136,7 +142,7 @@ export async function POST(req) {
     }
 
     const rec = found.top.record;
-    if (!isVerified(rec) && !ALLOW_UNREVIEWED) {
+    if (!isVerified(rec) && !unreviewedPolicy().allow) {
       return json(baseResponse({
         response: unreviewedTopicMessage(rec.name_en),
         reason: "pending_medical_review",
@@ -204,7 +210,8 @@ export function GET() {
   }
   return json({
     ok: true,
-    allow_unreviewed: ALLOW_UNREVIEWED,
+    allow_unreviewed: unreviewedPolicy().allow,
+    allow_unreviewed_source: unreviewedPolicy().source,
     env_var_present: process.env.MEDICAL_ALLOW_UNREVIEWED !== undefined,
     records,
     verified_records: verified,

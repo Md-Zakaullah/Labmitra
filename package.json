@@ -2,9 +2,18 @@
   "name": "labmitra",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "medical:validate": "node scripts/validate-medical-library.mjs",
+    "test:medical": "node --test tests/*.test.mjs"
+  },
   "dependencies": {
+    "@ai-sdk/anthropic": "latest",
+    "@ai-sdk/google": "latest",
     "@google/genai": "^1.0.0",
+    "ai": "latest",
     "next": "^15.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

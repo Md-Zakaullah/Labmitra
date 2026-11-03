@@ -33,7 +33,9 @@ const AI_TIMEOUT_MS = 12_000;
 
 // Set MEDICAL_ALLOW_UNREVIEWED=true ONLY for local/Preview testing.
 // In production leave it unset: records that are not "verified" are then never shown.
-const ALLOW_UNREVIEWED = process.env.MEDICAL_ALLOW_UNREVIEWED === "true";
+const ALLOW_UNREVIEWED = ["true", "1", "yes"].includes(
+  String(process.env.MEDICAL_ALLOW_UNREVIEWED ?? "").trim().toLowerCase()
+);
 
 const baseResponse = (over) => ({
   response: "",
@@ -188,7 +190,24 @@ export async function POST(req) {
   }
 }
 
-// Other methods are not supported.
+// Health check: open /api/chat in the browser. Shows config status only, never secrets or values.
+// (You can delete this function after setup if you do not want it public.)
 export function GET() {
-  return json({ error: "method_not_allowed" }, 405);
+  let records = null;
+  let verified = null;
+  try {
+    const lib = loadLibrary();
+    records = lib.records.length;
+    verified = lib.records.filter(isVerified).length;
+  } catch {
+    records = "load_error";
+  }
+  return json({
+    ok: true,
+    allow_unreviewed: ALLOW_UNREVIEWED,
+    env_var_present: process.env.MEDICAL_ALLOW_UNREVIEWED !== undefined,
+    records,
+    verified_records: verified,
+    ai_key_present: Boolean(process.env.ANTHROPIC_API_KEY || process.env.GEMINI_API_KEY),
+  });
 }

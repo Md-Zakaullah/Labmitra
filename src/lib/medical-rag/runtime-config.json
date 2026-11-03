@@ -1,0 +1,4 @@
+{
+  "_note": "Controls whether records that are NOT yet doctor-verified are shown to users (always with a 'medical review pending' banner). true = show them. false = show only verified records (everything else returns the 'under medical review' message). The environment variable MEDICAL_ALLOW_UNREVIEWED (true/false) overrides this file when set.",
+  "allow_unreviewed_content": true
+}

@@ -29,6 +29,7 @@ export function loadLibrary({ force = false, root = ROOT() } = {}) {
 
   const categories = readJson(path.join(root, "_meta", "categories.json"), []);
   const synonyms = readJson(path.join(root, "_meta", "symptom-synonyms.json"), {});
+  const config = readJson(path.join(root, "_meta", "runtime-config.json"), {});
   const plannedRaw = readJson(path.join(root, "_meta", "catalog-planned.json"), []);
   const planned = Array.isArray(plannedRaw) ? plannedRaw : plannedRaw.topics || [];
 
@@ -54,6 +55,7 @@ export function loadLibrary({ force = false, root = ROOT() } = {}) {
     }));
 
   cache = {
+    config,
     categories,
     records,
     byId: new Map(records.map((r) => [r.id, r])),

@@ -28,3 +28,16 @@ button{font:inherit;cursor:pointer}
 .card a{color:#0b7a6b}
 .disc{font-size:.8rem;color:#667;text-align:center}
 li{margin:4px 0}
+
+.mode-nav{display:flex;gap:8px;margin:16px 0;flex-wrap:wrap}
+.mode{flex:1;min-width:180px;padding:11px;border:1px solid #cbded9;border-radius:10px;background:#fff;color:#24534c;font-weight:650}
+.mode.active{background:#0b7a6b;color:#fff;border-color:#0b7a6b}
+.muted{color:#637875;font-size:.9rem}
+.chat-card textarea{width:100%;resize:vertical;padding:12px;border:1px solid #ccd;border-radius:9px;font:inherit;margin:6px 0}
+.chat-log{display:flex;flex-direction:column;gap:10px;max-height:480px;overflow:auto;margin:14px 0;padding:4px}
+.chat-bubble{padding:12px;border-radius:12px;max-width:95%;white-space:pre-wrap}
+.chat-bubble p{margin:6px 0}
+.chat-bubble.user{align-self:flex-end;background:#e2f4ef}
+.chat-bubble.assistant{align-self:flex-start;background:#f3f6f5;border:1px solid #e2e9e7}
+.sources{border-top:1px solid #dce5e2;margin-top:9px;padding-top:8px;display:grid;gap:4px;font-size:.8rem}
+.sources small{color:#536762}

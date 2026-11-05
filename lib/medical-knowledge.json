@@ -1,0 +1,1510 @@
+{
+  "title": "LabMitra Medical Reference Library",
+  "version": 1,
+  "notice": "Educational reference only. User-provided workbook content has not been independently clinically reviewed. Not a diagnostic guideline.",
+  "workbookCaveats": [
+    "Use the reporting laboratory's reference interval; ranges vary by method, age, sex, pregnancy and clinical context.",
+    "Do not diagnose from one value. Interpret results with symptoms, examination, timing, medicines and risk factors.",
+    "Test selection and interpretation must be clinician-directed."
+  ],
+  "entries": [
+    {
+      "Test": "CBC / Hemogram",
+      "Specimen": "EDTA blood",
+      "Typical adult range / normal": "Use lab-specific ranges",
+      "What abnormal may mean": "Patterns can suggest anemia, infection/inflammation, marrow or platelet disorders",
+      "How clinicians use it / caveats": "Often first-line; interpret all indices together",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Hemoglobin (female)",
+      "Specimen": "EDTA blood",
+      "Typical adult range / normal": "~12.0–15.5 g/dL",
+      "What abnormal may mean": "Low: anemia; high: dehydration or increased red cells",
+      "How clinicians use it / caveats": "Pregnancy, altitude and lab ranges affect it",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Hemoglobin (male)",
+      "Specimen": "EDTA blood",
+      "Typical adult range / normal": "~13.5–17.5 g/dL",
+      "What abnormal may mean": "Low: anemia; high: dehydration or increased red cells",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "WBC",
+      "Specimen": "EDTA blood",
+      "Typical adult range / normal": "~4.0–11.0 ×10³/µL",
+      "What abnormal may mean": "High: infection/inflammation, stress, steroids; low: viral illness, medicines or marrow causes",
+      "How clinicians use it / caveats": "Not specific for bacterial infection",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Platelets",
+      "Specimen": "EDTA blood",
+      "Typical adult range / normal": "~150–450 ×10³/µL",
+      "What abnormal may mean": "Low: infections, medicines, immune/marrow causes; high: inflammation/iron deficiency among causes",
+      "How clinicians use it / caveats": "Bleeding risk depends on level, cause and symptoms",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "MCV",
+      "Specimen": "EDTA blood",
+      "Typical adult range / normal": "~80–100 fL",
+      "What abnormal may mean": "Low: iron deficiency/thalassemia; high: B12/folate deficiency, liver/thyroid causes",
+      "How clinicians use it / caveats": "Interpret with Hb, ferritin, B12, RDW",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Reticulocyte count",
+      "Specimen": "EDTA blood",
+      "Typical adult range / normal": "Lab-specific, often ~0.5–2.5%",
+      "What abnormal may mean": "High may show marrow response to blood loss/hemolysis; low response may occur in production problems",
+      "How clinicians use it / caveats": "Useful in anemia work-up",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Peripheral blood smear",
+      "Specimen": "EDTA blood",
+      "Typical adult range / normal": "No abnormal cells/parasites expected",
+      "What abnormal may mean": "Cell shapes, abnormal cells, malaria parasites may be seen",
+      "How clinicians use it / caveats": "Microscopy depends on expertise; complements CBC",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Ferritin",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Lab/sex-specific; low often <15–30 ng/mL suggests depleted iron stores",
+      "What abnormal may mean": "Low: iron deficiency; high: inflammation, liver disease or iron overload",
+      "How clinicians use it / caveats": "Ferritin can rise with inflammation",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Iron / TIBC / transferrin saturation",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Use lab-specific ranges",
+      "What abnormal may mean": "Helps distinguish iron deficiency, inflammation and iron overload",
+      "How clinicians use it / caveats": "Interpret as a panel, not one value",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Vitamin B12",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Often ~200–900 pg/mL",
+      "What abnormal may mean": "Low/borderline can cause anemia or neurologic symptoms",
+      "How clinicians use it / caveats": "Methylmalonic acid may help in selected cases",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Folate",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Lab-specific",
+      "What abnormal may mean": "Low may cause macrocytic anemia",
+      "How clinicians use it / caveats": "B12 deficiency should also be considered",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "ESR",
+      "Specimen": "Blood",
+      "Typical adult range / normal": "Often male <15, female <20 mm/h in younger adults; lab-specific",
+      "What abnormal may mean": "Inflammation, infection, anemia and many other causes",
+      "How clinicians use it / caveats": "Nonspecific; changes slowly",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "CRP",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Often <5 mg/L",
+      "What abnormal may mean": "Inflammation/infection, not specific to cause",
+      "How clinicians use it / caveats": "Trend may help monitor selected conditions",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Procalcitonin",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Assay-specific; often <0.1 ng/mL in healthy people",
+      "What abnormal may mean": "May rise in some systemic bacterial infections",
+      "How clinicians use it / caveats": "Cannot alone confirm or exclude sepsis; clinical context",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Blood group & Rh",
+      "Specimen": "Blood",
+      "Typical adult range / normal": "A/B/AB/O and Rh positive/negative",
+      "What abnormal may mean": "Not a disease marker",
+      "How clinicians use it / caveats": "Transfusion/pregnancy planning; compatibility testing still needed",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Coombs / DAT",
+      "Specimen": "Blood",
+      "Typical adult range / normal": "Negative",
+      "What abnormal may mean": "Positive can support immune-mediated red-cell destruction in context",
+      "How clinicians use it / caveats": "Specialist interpretation",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "PT/INR",
+      "Specimen": "Citrated plasma",
+      "Typical adult range / normal": "PT often ~11–13.5 s; INR ~0.8–1.1 without anticoagulants",
+      "What abnormal may mean": "Prolonged: anticoagulants, liver/vitamin K/factor issues",
+      "How clinicians use it / caveats": "Warfarin targets are individualized",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "aPTT",
+      "Specimen": "Citrated plasma",
+      "Typical adult range / normal": "Often ~25–35 s",
+      "What abnormal may mean": "Prolonged: heparin, factor deficiency/inhibitor among causes",
+      "How clinicians use it / caveats": "Lab-specific",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "D-dimer",
+      "Specimen": "Citrated plasma",
+      "Typical adult range / normal": "Assay-specific; often <500 ng/mL FEU",
+      "What abnormal may mean": "Can rise in clots but also infection, pregnancy, surgery, age",
+      "How clinicians use it / caveats": "Rule-out use only in appropriate clinical risk groups",
+      "category": "Blood_Hematology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Sodium",
+      "Specimen": "Serum/plasma",
+      "Typical adult range / normal": "135–145 mmol/L",
+      "What abnormal may mean": "Fluid balance, medicines, endocrine or organ illness",
+      "How clinicians use it / caveats": "Severe abnormalities can be urgent",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Potassium",
+      "Specimen": "Serum/plasma",
+      "Typical adult range / normal": "3.5–5.0 mmol/L",
+      "What abnormal may mean": "Kidney/medicine causes; low with GI loss/diuretics; hemolysis can falsely elevate",
+      "How clinicians use it / caveats": "Significant changes can affect heart rhythm",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Bicarbonate / CO2",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "22–29 mmol/L",
+      "What abnormal may mean": "Acid-base or kidney/metabolic disorders",
+      "How clinicians use it / caveats": "Interpret with electrolytes and clinical context",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Calcium total",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "8.5–10.5 mg/dL",
+      "What abnormal may mean": "Parathyroid, vitamin D, kidney, cancer or albumin-related causes",
+      "How clinicians use it / caveats": "Albumin affects total calcium; ionized calcium sometimes needed",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Magnesium",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "~1.7–2.2 mg/dL",
+      "What abnormal may mean": "Low with GI loss/medicines; high with kidney impairment",
+      "How clinicians use it / caveats": "Lab-specific",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Phosphate",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "2.5–4.5 mg/dL",
+      "What abnormal may mean": "Kidney, nutrition, hormones or cell breakdown",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Creatinine",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Often ~0.6–1.3 mg/dL, varies by sex/muscle",
+      "What abnormal may mean": "Raised may reflect reduced kidney filtration, dehydration or medicines",
+      "How clinicians use it / caveats": "Use trend and eGFR; muscle mass affects it",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "eGFR",
+      "Specimen": "Calculated",
+      "Typical adult range / normal": "Usually ≥90 mL/min/1.73 m²",
+      "What abnormal may mean": "Persistently <60 for ≥3 months can indicate CKD; context matters",
+      "How clinicians use it / caveats": "May be inaccurate in acute illness/pregnancy/extremes of muscle mass",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Urine albumin/creatinine ratio (uACR)",
+      "Specimen": "Spot urine",
+      "Typical adult range / normal": "Usually <30 mg/g",
+      "What abnormal may mean": "Persistent elevation can indicate kidney damage",
+      "How clinicians use it / caveats": "Repeat/confirm; exercise, fever and infection can affect it",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "BUN",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Often 7–20 mg/dL",
+      "What abnormal may mean": "Dehydration, kidney impairment, high protein, GI bleeding among causes",
+      "How clinicians use it / caveats": "BUN is not identical to urea",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "ALT",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Often ~7–56 U/L",
+      "What abnormal may mean": "Liver-cell injury; fatty liver, viral hepatitis, medicines among causes",
+      "How clinicians use it / caveats": "Range varies; not a direct measure of liver function",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "AST",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Often ~10–40 U/L",
+      "What abnormal may mean": "Liver or muscle injury and other causes",
+      "How clinicians use it / caveats": "Can rise after strenuous exercise",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "ALP",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Often ~44–147 U/L",
+      "What abnormal may mean": "Bile duct or bone causes; also higher in growth/pregnancy",
+      "How clinicians use it / caveats": "Age/pregnancy affect range",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "GGT",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Lab-specific",
+      "What abnormal may mean": "Bile/liver disease, alcohol or medicines among causes",
+      "How clinicians use it / caveats": "Interpret with ALP and other liver tests",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Total bilirubin",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Often 0.1–1.2 mg/dL",
+      "What abnormal may mean": "Jaundice, bile obstruction, liver disease or hemolysis",
+      "How clinicians use it / caveats": "New jaundice merits medical review",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Albumin",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "3.5–5.0 g/dL",
+      "What abnormal may mean": "Low in inflammation, liver disease, kidney protein loss or poor nutrition",
+      "How clinicians use it / caveats": "Slow-changing marker; nonspecific",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Ammonia",
+      "Specimen": "Plasma",
+      "Typical adult range / normal": "Lab-specific, sample handling critical",
+      "What abnormal may mean": "May rise in severe liver/metabolic conditions",
+      "How clinicians use it / caveats": "Not a routine stand-alone liver function test",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Lipase",
+      "Specimen": "Serum",
+      "Typical adult range / normal": "Lab-specific; often upper limit around 60–160 U/L",
+      "What abnormal may mean": "Can rise in pancreatitis and other conditions",
+      "How clinicians use it / caveats": "Interpret with symptoms and imaging",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "HbA1c",
+      "Specimen": "EDTA blood",
+      "Typical adult range / normal": "<5.7% normal; 5.7–6.4% prediabetes; ≥6.5% diabetes threshold (confirmation usually needed)",
+      "What abnormal may mean": "Reflects average glucose over ~2–3 months",
+      "How clinicians use it / caveats": "Anemia, pregnancy and hemoglobin variants can affect accuracy",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Fasting plasma glucose",
+      "Specimen": "Plasma",
+      "Typical adult range / normal": "<100 mg/dL normal; 100–125 prediabetes; ≥126 diabetes threshold (confirm)",
+      "What abnormal may mean": "Elevated glucose regulation",
+      "How clinicians use it / caveats": "Non-pregnant adults; use clinical criteria",
+      "category": "Chemistry_Kidney_Liver",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Typhoid / enteric fever: blood culture",
+      "Specimen": "Blood culture bottles",
+      "Expected result / what is measured": "No Salmonella Typhi/Paratyphi growth",
+      "What positive may mean": "Growth supports diagnosis; susceptibility testing helps choose antibiotics",
+      "Clinical use / limitations": "Often preferred confirmation; collect before antibiotics if possible; sensitivity imperfect",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Typhoid: bone marrow culture",
+      "Specimen": "Bone marrow",
+      "Expected result / what is measured": "No Salmonella Typhi/Paratyphi growth",
+      "What positive may mean": "Can be more sensitive in selected cases",
+      "Clinical use / limitations": "Invasive; specialist-selected, not routine for everyone",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Widal O/H antibodies",
+      "Specimen": "Serum",
+      "Expected result / what is measured": "No universal reliable cut-off",
+      "What positive may mean": "Can reflect prior exposure, vaccination, cross-reaction or infection",
+      "Clinical use / limitations": "Single titre is unreliable; local baseline and paired titres matter; do not self-diagnose",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Typhoid rapid antibody tests",
+      "Specimen": "Serum/blood",
+      "Expected result / what is measured": "Assay-dependent",
+      "What positive may mean": "May support suspicion but accuracy varies",
+      "Clinical use / limitations": "Not equivalent to culture; follow local guidelines",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Malaria thick/thin smear",
+      "Specimen": "Blood",
+      "Expected result / what is measured": "No malaria parasites seen",
+      "What positive may mean": "Parasites identified; species and density may be reported",
+      "Clinical use / limitations": "Urgent assessment; repeat testing may be needed if suspicion persists",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Malaria rapid diagnostic test",
+      "Specimen": "Blood",
+      "Expected result / what is measured": "Negative",
+      "What positive may mean": "Parasite antigen detected",
+      "Clinical use / limitations": "Test performance varies by species/parasite density; clinical review",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Dengue NS1 antigen / PCR",
+      "Specimen": "Serum/plasma",
+      "Expected result / what is measured": "Negative",
+      "What positive may mean": "Supports acute dengue in suitable illness window",
+      "Clinical use / limitations": "Timing matters; one negative test may not exclude",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Dengue IgM/IgG",
+      "Specimen": "Serum",
+      "Expected result / what is measured": "Assay-specific",
+      "What positive may mean": "May indicate recent/past infection depending on antibody and timing",
+      "Clinical use / limitations": "Cross-reactivity can occur; clinician interprets with illness day",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Blood culture, other bacteria",
+      "Specimen": "Blood",
+      "Expected result / what is measured": "No pathogen isolated",
+      "What positive may mean": "Organism detected; susceptibility guides therapy",
+      "Clinical use / limitations": "Collect before antibiotics where possible; contamination can occur",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Urine culture",
+      "Specimen": "Clean-catch urine",
+      "Expected result / what is measured": "No significant growth, lab-specific",
+      "What positive may mean": "Bacterial growth may indicate UTI when symptoms/sample fit",
+      "Clinical use / limitations": "Contamination and colony count matter",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Sputum culture",
+      "Specimen": "Sputum",
+      "Expected result / what is measured": "No significant pathogen or normal flora",
+      "What positive may mean": "May identify respiratory pathogen",
+      "Clinical use / limitations": "Sample quality important; not every cough needs culture",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Stool culture / PCR panel",
+      "Specimen": "Stool",
+      "Expected result / what is measured": "No pathogen detected",
+      "What positive may mean": "May identify bacterial/viral/parasitic cause of diarrhea",
+      "Clinical use / limitations": "Use according to symptoms and severity",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "TB molecular test (e.g., Xpert MTB/RIF Ultra where available)",
+      "Specimen": "Sputum or validated specimen",
+      "Expected result / what is measured": "MTB not detected; rifampicin resistance not detected if applicable",
+      "What positive may mean": "Detects TB genetic material; resistance marker may be reported",
+      "Clinical use / limitations": "Negative result does not always exclude TB; local TB program guidance",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "HIV antigen/antibody screening",
+      "Specimen": "Blood",
+      "Expected result / what is measured": "Non-reactive",
+      "What positive may mean": "Reactive screening requires confirmatory algorithm",
+      "Clinical use / limitations": "Window period matters; confidential clinical follow-up",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "HBsAg",
+      "Specimen": "Blood",
+      "Expected result / what is measured": "Non-reactive",
+      "What positive may mean": "May indicate current hepatitis B infection",
+      "Clinical use / limitations": "Confirm/evaluate with clinician",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "HCV antibody + HCV RNA",
+      "Specimen": "Blood",
+      "Expected result / what is measured": "Antibody non-reactive; RNA not detected",
+      "What positive may mean": "RNA detected indicates current infection",
+      "Clinical use / limitations": "Antibody alone cannot distinguish current from past infection",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Strep throat rapid test/culture",
+      "Specimen": "Throat swab",
+      "Expected result / what is measured": "Negative",
+      "What positive may mean": "May support group A strep throat",
+      "Clinical use / limitations": "Use age/symptom-specific guidance; negative rapid test sometimes needs culture in children",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Respiratory virus PCR/antigen",
+      "Specimen": "Nasal/nasopharyngeal swab",
+      "Expected result / what is measured": "Negative",
+      "What positive may mean": "Virus detected",
+      "Clinical use / limitations": "Timing, sample and test type affect sensitivity",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test / disease": "Stool ova/parasites / antigen",
+      "Specimen": "Stool",
+      "Expected result / what is measured": "No parasite detected",
+      "What positive may mean": "May detect parasite causing symptoms",
+      "Clinical use / limitations": "Number of samples and assay choice matter",
+      "category": "Microbiology_Infection",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Urine dipstick protein",
+      "Specimen": "Urine",
+      "Typical result / range": "Negative/trace",
+      "What abnormal may mean": "Kidney disease, fever, exercise or other causes",
+      "Use / caveats": "Persistent protein: uACR/urine protein evaluation",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Urine blood",
+      "Specimen": "Urine",
+      "Typical result / range": "Negative",
+      "What abnormal may mean": "Stone, UTI, menstruation contamination, kidney/other causes",
+      "Use / caveats": "Microscopy and clinical evaluation may be needed",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Urine leukocyte esterase/nitrite",
+      "Specimen": "Urine",
+      "Typical result / range": "Negative",
+      "What abnormal may mean": "White cells/bacteria may support UTI",
+      "Use / caveats": "Negative does not fully exclude UTI",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Urine specific gravity",
+      "Specimen": "Urine",
+      "Typical result / range": "~1.005–1.030",
+      "What abnormal may mean": "Concentration/hydration changes",
+      "Use / caveats": "Interpret with hydration and clinical context",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Urine microscopy RBC",
+      "Specimen": "Urine",
+      "Typical result / range": "Often 0–2 per HPF",
+      "What abnormal may mean": "Hematuria; multiple causes",
+      "Use / caveats": "Lab-specific",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Urine microscopy WBC",
+      "Specimen": "Urine",
+      "Typical result / range": "Often 0–5 per HPF",
+      "What abnormal may mean": "Inflammation/possible infection",
+      "Use / caveats": "Symptoms and culture matter",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Urine pregnancy hCG",
+      "Specimen": "Urine",
+      "Typical result / range": "Negative",
+      "What abnormal may mean": "Positive usually indicates pregnancy",
+      "Use / caveats": "Very early pregnancy can test negative",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Urine albumin/creatinine ratio",
+      "Specimen": "Urine",
+      "Typical result / range": "<30 mg/g",
+      "What abnormal may mean": "Persistent elevation may indicate kidney damage",
+      "Use / caveats": "Often used in diabetes/hypertension",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Stool occult blood / FIT",
+      "Specimen": "Stool",
+      "Typical result / range": "Negative",
+      "What abnormal may mean": "Blood may require evaluation; not cancer-specific",
+      "Use / caveats": "Screening recommendations depend on age/risk",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Fecal calprotectin",
+      "Specimen": "Stool",
+      "Typical result / range": "Lab-specific; often <50 µg/g",
+      "What abnormal may mean": "Intestinal inflammation; can rise in IBD/infection",
+      "Use / caveats": "Does not diagnose IBD alone",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Celiac serology tTG-IgA + total IgA",
+      "Specimen": "Blood",
+      "Typical result / range": "Negative / within assay range",
+      "What abnormal may mean": "May support celiac disease",
+      "Use / caveats": "Testing usually while eating gluten; clinician-guided",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Fecal elastase",
+      "Specimen": "Stool",
+      "Typical result / range": "Often >200 µg/g",
+      "What abnormal may mean": "Low can suggest pancreatic exocrine insufficiency",
+      "Use / caveats": "Watery stool can falsely lower result",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "FIT/occult blood positive",
+      "Specimen": "Stool",
+      "Typical result / range": "Negative",
+      "What abnormal may mean": "Possible GI bleeding",
+      "Use / caveats": "Needs follow-up according to screening/clinical pathway",
+      "category": "Urine_Stool_Other",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "ECG / EKG",
+      "Sample / method": "Electrical tracing",
+      "Normal / reference": "Interpret by clinician",
+      "Abnormal may suggest": "Arrhythmia, ischemia, conduction issue among possibilities",
+      "Clinical use / limitations": "A normal ECG does not exclude all heart problems",
+      "category": "Heart_Lung",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "High-sensitivity troponin",
+      "Sample / method": "Blood",
+      "Normal / reference": "Below assay-specific 99th percentile",
+      "Abnormal may suggest": "Rise/fall can indicate heart muscle injury; causes vary",
+      "Clinical use / limitations": "Use serial values and symptoms; chest pain is urgent",
+      "category": "Heart_Lung",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "BNP / NT-proBNP",
+      "Sample / method": "Blood",
+      "Normal / reference": "Assay/age-specific",
+      "Abnormal may suggest": "May support heart failure assessment",
+      "Clinical use / limitations": "Kidney function, age and other factors affect levels",
+      "category": "Heart_Lung",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Echocardiogram",
+      "Sample / method": "Ultrasound",
+      "Normal / reference": "Structure/function interpreted by cardiology",
+      "Abnormal may suggest": "Valve disease, reduced pumping, fluid or structural problems",
+      "Clinical use / limitations": "No ionizing radiation",
+      "category": "Heart_Lung",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Stress test",
+      "Sample / method": "Exercise or medicine + ECG/imaging",
+      "Normal / reference": "Protocol-specific",
+      "Abnormal may suggest": "May indicate inducible ischemia",
+      "Clinical use / limitations": "Not suitable for everyone; clinician selects test",
+      "category": "Heart_Lung",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Holter/event monitor",
+      "Sample / method": "Portable ECG",
+      "Normal / reference": "No significant arrhythmia detected",
+      "Abnormal may suggest": "Intermittent rhythm abnormalities",
+      "Clinical use / limitations": "Duration depends on symptom frequency",
+      "category": "Heart_Lung",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Spirometry",
+      "Sample / method": "Breathing test",
+      "Normal / reference": "Age/height/sex and predicted values; use lower limit of normal",
+      "Abnormal may suggest": "Obstructive/restrictive patterns need interpretation",
+      "Clinical use / limitations": "Bronchodilator testing may be added",
+      "category": "Heart_Lung",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Chest X-ray",
+      "Sample / method": "Imaging",
+      "Normal / reference": "No acute abnormality expected",
+      "Abnormal may suggest": "Pneumonia, fluid, heart size, some masses among possibilities",
+      "Clinical use / limitations": "Uses a small amount of ionizing radiation",
+      "category": "Heart_Lung",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Pulse oximetry",
+      "Sample / method": "Finger sensor",
+      "Normal / reference": "Often 95–100% at sea level in healthy adults",
+      "Abnormal may suggest": "Low oxygen saturation may indicate respiratory/circulatory problem",
+      "Clinical use / limitations": "Altitude, circulation, nail products and device affect accuracy",
+      "category": "Heart_Lung",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "TSH",
+      "Specimen": "Serum",
+      "Typical reference / decision threshold": "~0.4–4.0 mIU/L",
+      "What abnormal may mean": "High often suggests hypothyroidism if FT4 low; low can suggest hyperthyroidism",
+      "Caveats": "Pregnancy and assay-specific ranges",
+      "category": "Endocrine_Nutrition",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Free T4",
+      "Specimen": "Serum",
+      "Typical reference / decision threshold": "~0.8–1.8 ng/dL",
+      "What abnormal may mean": "Interpreted with TSH",
+      "Caveats": "Lab-specific",
+      "category": "Endocrine_Nutrition",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Free T3",
+      "Specimen": "Serum",
+      "Typical reference / decision threshold": "~2.3–4.2 pg/mL",
+      "What abnormal may mean": "Can be high in some hyperthyroidism",
+      "Caveats": "Not usually used alone for hypothyroidism",
+      "category": "Endocrine_Nutrition",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Anti-TPO antibody",
+      "Specimen": "Serum",
+      "Typical reference / decision threshold": "Negative or assay-specific",
+      "What abnormal may mean": "Supports autoimmune thyroid disease in context",
+      "Caveats": "Does not alone show thyroid function severity",
+      "category": "Endocrine_Nutrition",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Cortisol",
+      "Specimen": "Blood/saliva/urine",
+      "Typical reference / decision threshold": "Time- and test-specific",
+      "What abnormal may mean": "Can support adrenal evaluation",
+      "Caveats": "Random cortisol often hard to interpret; dynamic testing may be needed",
+      "category": "Endocrine_Nutrition",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "PTH",
+      "Specimen": "Blood",
+      "Typical reference / decision threshold": "Assay-specific",
+      "What abnormal may mean": "Parathyroid/calcium disorders",
+      "Caveats": "Interpret with calcium, phosphate, vitamin D and kidney function",
+      "category": "Endocrine_Nutrition",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "25-OH Vitamin D",
+      "Specimen": "Serum",
+      "Typical reference / decision threshold": "Many labs: deficiency <20 ng/mL; thresholds vary",
+      "What abnormal may mean": "Low may indicate deficiency",
+      "Caveats": "Guideline thresholds differ",
+      "category": "Endocrine_Nutrition",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Vitamin B12",
+      "Specimen": "Serum",
+      "Typical reference / decision threshold": "Often ~200–900 pg/mL",
+      "What abnormal may mean": "Low can cause anemia/neurologic symptoms",
+      "Caveats": "Borderline may need confirmatory assessment",
+      "category": "Endocrine_Nutrition",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Ferritin",
+      "Specimen": "Serum",
+      "Typical reference / decision threshold": "Sex/lab-specific",
+      "What abnormal may mean": "Low suggests iron deficiency; high can reflect inflammation",
+      "Caveats": "Not a stand-alone iron-overload diagnosis",
+      "category": "Endocrine_Nutrition",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "Ultrasound (USG) abdomen",
+      "Body area / question": "Liver, gallbladder, kidneys, spleen, fluid",
+      "What it can show": "Gallstones, hydronephrosis, organ size, fluid and selected masses",
+      "Radiation / contrast": "No ionizing radiation; sometimes Doppler",
+      "How clinicians choose it / limits": "Often first-line for gallbladder/pelvic questions; bowel gas/body habitus can limit",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "Pelvic ultrasound (transabdominal/transvaginal)",
+      "Body area / question": "Uterus, ovaries, pelvis",
+      "What it can show": "Fibroids, ovarian cysts, pregnancy location and selected pelvic causes",
+      "Radiation / contrast": "No ionizing radiation",
+      "How clinicians choose it / limits": "Route depends on question and consent; pregnancy assessment is clinical",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "Obstetric ultrasound",
+      "Body area / question": "Pregnancy/fetus",
+      "What it can show": "Growth, anatomy, placental position, fluid",
+      "Radiation / contrast": "No ionizing radiation",
+      "How clinicians choose it / limits": "Timing and indication follow obstetric guidance",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "Doppler ultrasound",
+      "Body area / question": "Blood flow in veins/arteries/organs",
+      "What it can show": "DVT, arterial flow, vascularity",
+      "Radiation / contrast": "No ionizing radiation",
+      "How clinicians choose it / limits": "Operator-dependent; not all vessels are well seen",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "Echocardiography",
+      "Body area / question": "Heart",
+      "What it can show": "Pumping, valves, chambers, pericardial fluid",
+      "Radiation / contrast": "No ionizing radiation",
+      "How clinicians choose it / limits": "Specialized ultrasound",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "X-ray chest",
+      "Body area / question": "Chest/lungs/bones",
+      "What it can show": "Pneumonia, fluid, some fractures and other findings",
+      "Radiation / contrast": "Ionizing radiation",
+      "How clinicians choose it / limits": "Fast; may miss early/small abnormalities",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "X-ray bone/joint",
+      "Body area / question": "Bones",
+      "What it can show": "Fracture, alignment, arthritis changes",
+      "Radiation / contrast": "Ionizing radiation",
+      "How clinicians choose it / limits": "First-line for many bone injuries",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "CT head without contrast",
+      "Body area / question": "Head trauma, acute bleeding/stroke triage",
+      "What it can show": "Acute hemorrhage, fractures, mass effect",
+      "Radiation / contrast": "Ionizing radiation; often no contrast",
+      "How clinicians choose it / limits": "Rapid emergency test; early ischemic stroke may not be visible",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "CT chest",
+      "Body area / question": "Lungs/chest",
+      "What it can show": "Lung disease, nodules, trauma and other findings",
+      "Radiation / contrast": "Ionizing radiation; contrast depends on question",
+      "How clinicians choose it / limits": "Protocol depends on indication",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "CT pulmonary angiography (CTPA)",
+      "Body area / question": "Pulmonary arteries",
+      "What it can show": "Pulmonary embolism",
+      "Radiation / contrast": "Ionizing radiation + iodinated contrast",
+      "How clinicians choose it / limits": "Used when PE evaluation warrants it; not a screening test",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "CT abdomen/pelvis",
+      "Body area / question": "Abdominal/pelvic pain, trauma, stones or masses",
+      "What it can show": "Appendicitis, stones, obstruction, inflammation and many other causes",
+      "Radiation / contrast": "Ionizing radiation; contrast often used depending on question",
+      "How clinicians choose it / limits": "Protocol/contrast chosen by clinician; pregnancy status matters",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "CT KUB / noncontrast CT",
+      "Body area / question": "Kidneys/ureters/bladder stones",
+      "What it can show": "Urinary stones and obstruction",
+      "Radiation / contrast": "Ionizing radiation, usually no contrast",
+      "How clinicians choose it / limits": "Ultrasound may be preferred in pregnancy and selected patients",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "CT angiography (CTA)",
+      "Body area / question": "Arteries",
+      "What it can show": "Aneurysm, stenosis, vascular injury",
+      "Radiation / contrast": "Ionizing radiation + iodinated contrast",
+      "How clinicians choose it / limits": "Kidney function and contrast allergy history may matter",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "CT colonography",
+      "Body area / question": "Colon",
+      "What it can show": "Polyps/masses in selected screening/diagnostic settings",
+      "Radiation / contrast": "Ionizing radiation; bowel prep and gas insufflation",
+      "How clinicians choose it / limits": "Abnormal findings may still require colonoscopy",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "MRI brain/spine/joints",
+      "Body area / question": "Brain, spinal cord, soft tissues",
+      "What it can show": "Tumors, inflammation, disc/ligament/soft-tissue disease",
+      "Radiation / contrast": "No ionizing radiation; contrast sometimes used",
+      "How clinicians choose it / limits": "Longer; implant safety and claustrophobia considered",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "MR angiography (MRA)",
+      "Body area / question": "Blood vessels",
+      "What it can show": "Selected vascular disorders",
+      "Radiation / contrast": "No ionizing radiation; contrast optional by protocol",
+      "How clinicians choose it / limits": "Not interchangeable with CTA in every emergency",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "MRCP",
+      "Body area / question": "Bile/pancreatic ducts",
+      "What it can show": "Duct stones/obstruction and duct anatomy",
+      "Radiation / contrast": "No ionizing radiation; often no contrast",
+      "How clinicians choose it / limits": "MRI-based, noninvasive",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "Mammography",
+      "Body area / question": "Breast",
+      "What it can show": "Calcifications, masses and screening findings",
+      "Radiation / contrast": "Low-dose ionizing radiation",
+      "How clinicians choose it / limits": "Screening age/interval depends on guideline and risk",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "DEXA / DXA",
+      "Body area / question": "Bone density",
+      "What it can show": "Bone mineral density/osteoporosis risk",
+      "Radiation / contrast": "Very low ionizing radiation",
+      "How clinicians choose it / limits": "Risk-based interpretation",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "PET-CT",
+      "Body area / question": "Metabolic activity plus anatomy, often oncology",
+      "What it can show": "Selected cancers, staging, recurrence and other indications",
+      "Radiation / contrast": "Radiotracer radiation plus CT radiation",
+      "How clinicians choose it / limits": "Not a general screening test; indication-specific",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "Nuclear medicine scan",
+      "Body area / question": "Organ-specific tracer imaging",
+      "What it can show": "Function/perfusion/selected disease processes",
+      "Radiation / contrast": "Radiotracer radiation",
+      "How clinicians choose it / limits": "Type depends on clinical question",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "Endoscopy / colonoscopy",
+      "Body area / question": "GI tract camera examination",
+      "What it can show": "Ulcers, inflammation, bleeding, polyps; biopsy possible",
+      "Radiation / contrast": "No ionizing radiation; sedation/procedure risks",
+      "How clinicians choose it / limits": "Can diagnose and treat; prep and consent needed",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "Biopsy / histopathology",
+      "Body area / question": "Tissue sample",
+      "What it can show": "Cell/tissue diagnosis, tumor type, inflammation",
+      "Radiation / contrast": "Procedure-specific risk; imaging may guide it",
+      "How clinicians choose it / limits": "Often confirms diagnosis when imaging/labs are insufficient",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Imaging / procedure": "Contrast safety note",
+      "Body area / question": "CT/MRI contrast",
+      "What it can show": "Improves visualization for selected questions",
+      "Radiation / contrast": "Iodinated CT contrast differs from gadolinium MRI contrast",
+      "How clinicians choose it / limits": "Tell clinician about pregnancy, kidney disease, prior contrast reaction and relevant medicines",
+      "category": "Imaging_CT_US_MRI",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "CT/MRI brain",
+      "Method/specimen": "Imaging",
+      "Typical / normal": "Radiology interpretation",
+      "Abnormal may suggest": "Bleed, stroke, tumor, infection or structural cause depending on modality",
+      "Use / limitations": "Choice depends on urgency and clinical question",
+      "category": "Neuro_Musculoskeletal",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "EEG",
+      "Method/specimen": "Scalp electrical recording",
+      "Typical / normal": "No epileptiform activity detected",
+      "Abnormal may suggest": "May support seizure disorder or encephalopathy",
+      "Use / limitations": "Normal EEG does not exclude epilepsy",
+      "category": "Neuro_Musculoskeletal",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "EMG/Nerve conduction study",
+      "Method/specimen": "Electrical nerve/muscle tests",
+      "Typical / normal": "Lab-specific",
+      "Abnormal may suggest": "Neuropathy, nerve compression, muscle/nerve disorders",
+      "Use / limitations": "Not all small-fiber neuropathies are detected",
+      "category": "Neuro_Musculoskeletal",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Lumbar puncture / CSF",
+      "Method/specimen": "Cerebrospinal fluid",
+      "Typical / normal": "Cells, protein, glucose, culture/PCR interpreted by lab",
+      "Abnormal may suggest": "Meningitis, inflammation, bleeding or other causes",
+      "Use / limitations": "Selected cases; imaging/coagulation checks may be needed first",
+      "category": "Neuro_Musculoskeletal",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "CK / creatine kinase",
+      "Method/specimen": "Blood",
+      "Typical / normal": "Lab-specific, often ~30–200 U/L",
+      "Abnormal may suggest": "Muscle injury, rhabdomyolysis, exercise or medicines",
+      "Use / limitations": "Marked rise with dark urine/weakness needs urgent assessment",
+      "category": "Neuro_Musculoskeletal",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Uric acid",
+      "Method/specimen": "Blood",
+      "Typical / normal": "Sex/lab-specific",
+      "Abnormal may suggest": "High may increase gout risk",
+      "Use / limitations": "Does not diagnose gout by itself; joint aspiration may be needed",
+      "category": "Neuro_Musculoskeletal",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Synovial fluid analysis",
+      "Method/specimen": "Joint fluid",
+      "Typical / normal": "No crystals/pathogens; low cell count expected",
+      "Abnormal may suggest": "Crystals, infection or inflammation",
+      "Use / limitations": "Suspected septic joint is urgent; crystal finding does not exclude infection",
+      "category": "Neuro_Musculoskeletal",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "X-ray joint",
+      "Method/specimen": "Imaging",
+      "Typical / normal": "No acute bone abnormality",
+      "Abnormal may suggest": "Fracture/arthritis changes",
+      "Use / limitations": "May not show early soft tissue injury",
+      "category": "Neuro_Musculoskeletal",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "MRI spine",
+      "Method/specimen": "Imaging",
+      "Typical / normal": "Radiology interpretation",
+      "Abnormal may suggest": "Disc, cord, nerve, infection or tumor changes",
+      "Use / limitations": "Urgent assessment for new weakness, saddle numbness, bladder/bowel dysfunction",
+      "category": "Neuro_Musculoskeletal",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Histopathology biopsy",
+      "Specimen / method": "Tissue",
+      "What it does": "Examines tissue architecture/cells",
+      "Interpretation / limits": "Often establishes diagnosis; sampling error is possible",
+      "category": "Cancer_Pathology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Cytology / Pap test",
+      "Specimen / method": "Cells",
+      "What it does": "Screens or assesses abnormal cells",
+      "Interpretation / limits": "Screening result is not the same as tissue diagnosis",
+      "category": "Cancer_Pathology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Immunohistochemistry (IHC)",
+      "Specimen / method": "Tissue",
+      "What it does": "Uses markers to classify cells/tumors",
+      "Interpretation / limits": "Marker panel selected for the case",
+      "category": "Cancer_Pathology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Flow cytometry",
+      "Specimen / method": "Blood/bone marrow/tissue",
+      "What it does": "Characterizes cell populations",
+      "Interpretation / limits": "Used for selected blood cancers/immune disorders",
+      "category": "Cancer_Pathology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Molecular pathology / PCR / NGS",
+      "Specimen / method": "Tumor or other sample",
+      "What it does": "Detects selected genetic changes/pathogens",
+      "Interpretation / limits": "Actionability depends on cancer type and validated assay",
+      "category": "Cancer_Pathology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Tumor markers (e.g., PSA, CA-125, CEA, AFP)",
+      "Specimen / method": "Blood",
+      "What it does": "May support selected work-up or monitoring",
+      "Interpretation / limits": "Most are not suitable as stand-alone population screening or diagnosis",
+      "category": "Cancer_Pathology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Mammography / ultrasound / MRI",
+      "Specimen / method": "Imaging",
+      "What it does": "Detects and characterizes breast findings",
+      "Interpretation / limits": "Suspicious finding may require biopsy",
+      "category": "Cancer_Pathology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Test": "Colonoscopy with biopsy",
+      "Specimen / method": "Colon",
+      "What it does": "Visualizes colon and samples/removes lesions",
+      "Interpretation / limits": "Follow-up depends on pathology and risk",
+      "category": "Cancer_Pathology",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Question / presentation": "Suspected typhoid/enteric fever",
+      "Common first-line approach (clinician-directed)": "History/exam, blood culture before antibiotics when feasible; CBC/chemistry assess severity",
+      "What may come next": "Culture/susceptibility; selected additional tests based on local practice",
+      "Important caution": "Widal alone cannot reliably confirm; do not self-start antibiotics",
+      "category": "Clinical_Pathways",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Question / presentation": "Suspected malaria with fever/travel/residence risk",
+      "Common first-line approach (clinician-directed)": "Urgent malaria RDT and/or thick/thin smear",
+      "What may come next": "Repeat smear/testing if suspicion persists despite initial negative, per local protocol",
+      "Important caution": "Possible severe malaria is an emergency",
+      "category": "Clinical_Pathways",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Question / presentation": "Suspected dengue",
+      "Common first-line approach (clinician-directed)": "Clinical assessment, CBC/hematocrit/platelets as indicated, NS1/PCR early or IgM depending on illness day",
+      "What may come next": "Monitoring based on warning signs and clinician judgement",
+      "Important caution": "Avoid self-medicating with aspirin/ibuprofen if dengue suspected; seek clinician advice",
+      "category": "Clinical_Pathways",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Question / presentation": "Diabetes assessment",
+      "Common first-line approach (clinician-directed)": "Fasting plasma glucose and/or HbA1c; random glucose if symptomatic",
+      "What may come next": "Repeat/confirm abnormal result unless unequivocal clinical presentation",
+      "Important caution": "Pregnancy and some blood conditions need different pathways",
+      "category": "Clinical_Pathways",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Question / presentation": "Possible UTI",
+      "Common first-line approach (clinician-directed)": "Symptoms, urinalysis; culture when indicated",
+      "What may come next": "Culture-guided treatment in selected cases",
+      "Important caution": "Pregnancy, fever/flank pain, severe illness need prompt assessment",
+      "category": "Clinical_Pathways",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Question / presentation": "Possible kidney disease",
+      "Common first-line approach (clinician-directed)": "Creatinine/eGFR, electrolytes, urine ACR/urinalysis",
+      "What may come next": "Repeat tests, imaging or specialist review as indicated",
+      "Important caution": "One abnormal result alone may not establish chronic disease",
+      "category": "Clinical_Pathways",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Question / presentation": "Abdominal pain",
+      "Common first-line approach (clinician-directed)": "History/exam, pregnancy test where relevant, labs tailored to symptoms",
+      "What may come next": "Ultrasound or CT depending on suspected cause and urgency",
+      "Important caution": "Imaging choice depends on age, pregnancy, kidney function and differential",
+      "category": "Clinical_Pathways",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Question / presentation": "Chest pain / suspected heart attack",
+      "Common first-line approach (clinician-directed)": "Emergency assessment, ECG and serial high-sensitivity troponin",
+      "What may come next": "Further cardiac imaging/testing as directed",
+      "Important caution": "Do not delay emergency care to arrange outpatient testing",
+      "category": "Clinical_Pathways",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Question / presentation": "Stroke symptoms",
+      "Common first-line approach (clinician-directed)": "Emergency stroke pathway; urgent CT head, sometimes CTA/MRI",
+      "What may come next": "Further imaging and treatment decisions by stroke team",
+      "Important caution": "Time-critical emergency",
+      "category": "Clinical_Pathways",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Question / presentation": "Possible pulmonary embolism",
+      "Common first-line approach (clinician-directed)": "Clinical probability assessment; D-dimer in selected low-risk/intermediate-risk patients",
+      "What may come next": "CTPA or alternative imaging when indicated",
+      "Important caution": "D-dimer is not a general screening test",
+      "category": "Clinical_Pathways",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Question / presentation": "Possible cancer",
+      "Common first-line approach (clinician-directed)": "Symptoms/exam and targeted imaging/endoscopy",
+      "What may come next": "Biopsy/pathology and staging tests if indicated",
+      "Important caution": "Tumor markers alone usually cannot diagnose cancer",
+      "category": "Clinical_Pathways",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Technology / trend": "Multiplex PCR panels",
+      "Where used": "Selected respiratory, GI, meningitis and sepsis workups",
+      "What it adds": "Detect multiple targets quickly",
+      "Cautions / current practice": "Availability, cost and clinical interpretation vary; detected genetic material may not always mean active disease",
+      "category": "Newer_Tech_Notes",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Technology / trend": "Rapid molecular TB tests",
+      "Where used": "TB diagnosis and selected resistance markers",
+      "What it adds": "Can rapidly detect MTB genetic material and selected resistance",
+      "Cautions / current practice": "Follow local TB program; negative test does not exclude every case",
+      "category": "Newer_Tech_Notes",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Technology / trend": "Next-generation sequencing (NGS)",
+      "Where used": "Selected cancer, rare disease and pathogen investigations",
+      "What it adds": "Broad genetic analysis",
+      "Cautions / current practice": "Not a universal first-line test; turnaround, access and interpretation vary",
+      "category": "Newer_Tech_Notes",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Technology / trend": "Liquid biopsy / circulating tumor DNA",
+      "Where used": "Selected oncology contexts",
+      "What it adds": "May identify tumor mutations from blood",
+      "Cautions / current practice": "Does not replace tissue biopsy in every situation; a negative result may be uninformative",
+      "category": "Newer_Tech_Notes",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Technology / trend": "AI-assisted imaging",
+      "Where used": "Radiology workflow and selected detection/triage tasks",
+      "What it adds": "May assist prioritization or image interpretation",
+      "Cautions / current practice": "Performance depends on tool, population and oversight; radiologist/clinician remains responsible",
+      "category": "Newer_Tech_Notes",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Technology / trend": "Digital pathology / AI",
+      "Where used": "Selected pathology workflows",
+      "What it adds": "Can assist slide analysis and quantification",
+      "Cautions / current practice": "Validation and local approval vary",
+      "category": "Newer_Tech_Notes",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Technology / trend": "Point-of-care ultrasound (POCUS)",
+      "Where used": "Bedside emergency/critical care",
+      "What it adds": "Rapid focused assessment",
+      "Cautions / current practice": "Operator-dependent; does not replace formal imaging when needed",
+      "category": "Newer_Tech_Notes",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Technology / trend": "Low-dose CT lung screening",
+      "Where used": "Eligible high-risk people in specific programs",
+      "What it adds": "Can reduce lung-cancer mortality in selected high-risk groups",
+      "Cautions / current practice": "Not for everyone; eligibility follows local guidelines",
+      "category": "Newer_Tech_Notes",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Technology / trend": "Whole-body CT/MRI screening",
+      "Where used": "Asymptomatic screening proposals",
+      "What it adds": "Can detect incidental findings",
+      "Cautions / current practice": "Not generally recommended as routine screening for everyone; false positives/overdiagnosis are concerns",
+      "category": "Newer_Tech_Notes",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Technology / trend": "Personalized reference intervals",
+      "Where used": "Laboratory medicine trend",
+      "What it adds": "May account for method/person factors in some settings",
+      "Cautions / current practice": "Most routine reports still use validated lab-specific intervals",
+      "category": "Newer_Tech_Notes",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    },
+    {
+      "Technology / trend": "Currentness note",
+      "Where used": "All categories",
+      "What it adds": "Recommendations evolve",
+      "Cautions / current practice": "For a real patient, confirm current local clinical guidelines and test availability; this workbook is not a live guideline database.",
+      "category": "Newer_Tech_Notes",
+      "source": "User-provided Real World Healthcare Tests & Imaging Guide",
+      "verificationStatus": "educational_unreviewed"
+    }
+  ]
+}

@@ -27,6 +27,12 @@ async function compress(file: File): Promise<File> {
 }
 
 export default function Home() {
+  const [mode, setMode] = useState<"analyzer" | "chat">("analyzer");
+  const [chatMessage, setChatMessage] = useState("");
+  const [chatLanguage, setChatLanguage] = useState<"hinglish" | "hi" | "en">("hinglish");
+  const [chatLoading, setChatLoading] = useState(false);
+  const [chatError, setChatError] = useState("");
+  const [chatItems, setChatItems] = useState<{role:"user"|"assistant"; text:string; sources?:{title:string;status:string;source:string}[]}[]>([]);
   const [file, setFile] = useState<File | null>(null);
   const [lang, setLang] = useState<LangCode>("hinglish");
   const [city, setCity] = useState("");
@@ -140,6 +146,23 @@ export default function Home() {
     }
   }
 
+  async function sendMedicalMessage() {
+    const message = chatMessage.trim();
+    if (!message || chatLoading) return;
+    setChatItems(items => [...items, { role: "user", text: message }]);
+    setChatMessage(""); setChatLoading(true); setChatError("");
+    try {
+      const response = await fetch("/api/medical-chat", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message, language: chatLanguage })
+      });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "Jawab nahi mil paya");
+      setChatItems(items => [...items, { role: "assistant", text: data.answer, sources: data.sources || [] }]);
+    } catch (e: any) { setChatError(e.message || "Network error"); }
+    finally { setChatLoading(false); }
+  }
+
   return (
     <main className="wrap">
       <header>
@@ -147,6 +170,36 @@ export default function Home() {
         <p>Lab report upload karo, apni bhasha mein samjho.</p>
       </header>
 
+      <nav className="mode-nav" aria-label="LabMitra tools">
+        <button className={mode === "analyzer" ? "mode active" : "mode"} onClick={() => setMode("analyzer")}>🧪 Lab Report Analyzer</button>
+        <button className={mode === "chat" ? "mode active" : "mode"} onClick={() => setMode("chat")}>💬 Medical Chatbot</button>
+      </nav>
+
+      {mode === "chat" ? (
+        <section className="card chat-card">
+          <h2>Medical Information Assistant</h2>
+          <p className="muted">Health topics ko simple language mein samjhein. Yeh diagnosis ya doctor ka replacement nahi hai.</p>
+          <label htmlFor="chat-language">Bhasha</label>
+          <select id="chat-language" value={chatLanguage} onChange={e => setChatLanguage(e.target.value as any)}>
+            <option value="hinglish">Hinglish</option><option value="hi">हिन्दी</option><option value="en">English</option>
+          </select>
+          <div className="chat-log" aria-live="polite">
+            {chatItems.length === 0 && <p className="muted">Example: PCOS kya hota hai? Dengue test kab useful hota hai?</p>}
+            {chatItems.map((item, i) => <article key={i} className={`chat-bubble ${item.role}`}>
+              <b>{item.role === "user" ? "Aap" : "LabMitra Assistant"}</b>
+              <p>{item.text}</p>
+              {item.sources && item.sources.length > 0 && <div className="sources"><b>Reference context (clinical review pending):</b>{item.sources.map((s,j) => <small key={j}>• {s.title} — {s.status}</small>)}</div>}
+            </article>)}
+            {chatLoading && <p className="muted">Reference check karke jawab taiyar ho raha hai…</p>}
+          </div>
+          {chatError && <p className="err">{chatError}</p>}
+          <label htmlFor="medical-question">Aapka sawaal</label>
+          <textarea id="medical-question" rows={3} maxLength={2000} value={chatMessage} onChange={e => setChatMessage(e.target.value)} placeholder="Apna health-related sawaal likhein…" />
+          <button className="primary" disabled={!chatMessage.trim() || chatLoading} onClick={sendMedicalMessage}>{chatLoading ? "Jawab aa raha hai…" : "Sawaal bhejein"}</button>
+          <p className="disc">Emergency symptoms mein chatbot ka intezar na karein. India mein emergency ke liye 112 call karein.</p>
+        </section>
+      ) : (
+      <>
       <section className="card">
         <label>Bhasha chuno</label>
         <select value={lang} onChange={(e) => { setLang(e.target.value as LangCode); setAudioUrl(""); }}>
@@ -250,6 +303,8 @@ export default function Home() {
 
           <p className="disc">⚕️ {result.disclaimer}</p>
         </>
+      )}
+      </>
       )}
     </main>
   );
